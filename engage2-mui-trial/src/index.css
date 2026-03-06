@@ -1,0 +1,16 @@
+/* IBM Plex Sans font family setup */
+body {
+  font-family: 'IBM Plex Sans', 'Helvetica', 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Ensure all text elements inherit the font family */
+* {
+  font-family: inherit;
+}
+
+/* Specific font family for monospace elements */
+code, pre, .monospace {
+  font-family: 'IBM Plex Mono', 'Courier New', monospace;
+}

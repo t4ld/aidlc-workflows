@@ -1,0 +1,4485 @@
+{
+  "colorSchemes": {
+    "light": {
+      "palette": {
+        "text": {
+          "primary": "#000000",
+          "secondary": "rgba(0, 0, 0, 0.7)",
+          "_states": {
+            "focusVisible": "rgba(0, 0, 0, 0.3)"
+          }
+        },
+        "primary": {
+          "main": "#0067A3",
+          "dark": "#1565C0",
+          "light": "#5DCDFD",
+          "contrastText": "#FFFFFF",
+          "_states": {
+            "hover": "rgba(0, 101, 150, 0.04)",
+            "selected": "rgba(0, 101, 150, 0.08)",
+            "focus": "rgba(0, 101, 150, 0.12)",
+            "focusVisible": "rgba(0, 101, 150, 0.3)",
+            "outlinedBorder": "rgba(0, 101, 150, 0.5)"
+          }
+        },
+        "secondary": {
+          "main": "#FFA100",
+          "dark": "#D68B00",
+          "light": "#FDC77C",
+          "contrastText": "#000000",
+          "_states": {
+            "hover": "rgba(255, 161, 0, 0.04)",
+            "selected": "rgba(255, 161, 0, 0.08)",
+            "focus": "rgba(255, 161, 0, 0.12)",
+            "focusVisible": "rgba(255, 161, 0, 0.3)",
+            "outlinedBorder": "rgba(255, 161, 0, 0.5)"
+          }
+        },
+        "error": {
+          "main": "#B40006",
+          "dark": "#860700",
+          "light": "#E785A9",
+          "contrastText": "#FFFFFF",
+          "_states": {
+            "hover": "rgba(180, 0, 6, 0.04)",
+            "selected": "rgba(180, 0, 6, 0.08)",
+            "focusVisible": "rgba(180, 0, 6, 0.3)",
+            "outlinedBorder": "rgba(180, 0, 6, 0.5)"
+          }
+        },
+        "warning": {
+          "main": "#E57709",
+          "dark": "#834805",
+          "light": "#FBBE8C",
+          "contrastText": "#000000",
+          "_states": {
+            "hover": "rgba(229, 119, 9, 0.04)",
+            "selected": "rgba(229, 119, 9, 0.08)",
+            "focusVisible": "rgba(229, 119, 9, 0.3)",
+            "outlinedBorder": "rgba(229, 119, 9, 0.5)"
+          }
+        },
+        "info": {
+          "main": "#81D4FA",
+          "dark": "#29B6F6",
+          "light": "#81D4FA",
+          "contrastText": "#000000",
+          "_states": {
+            "outlinedBorder": "rgba(2, 136, 209, 0.5)",
+            "hover": "rgba(2, 136, 209, 0.04)"
+          }
+        },
+        "success": {
+          "contrastText": "#FFFFFF",
+          "main": "#2E7D32",
+          "dark": "#1B5E20",
+          "_states": {
+            "outlinedBorder": "rgba(46, 125, 50, 0.5)",
+            "focusVisible": "rgba(46, 125, 50, 0.3)",
+            "hover": "rgba(46, 125, 50, 0.04)"
+          }
+        },
+        "_components": {
+          "alert": {
+            "error": {
+              "color": "#100F0F",
+              "background": "#F0D7E5"
+            },
+            "warning": {
+              "color": "#000000",
+              "background": "#FEF5EF"
+            },
+            "info": {
+              "color": "#100F0F",
+              "background": "#E6F8FE"
+            },
+            "success": {
+              "color": "#100F0F",
+              "background": "#D9F3CF"
+            }
+          },
+          "switch": {
+            "knobFillEnabled": "#FAFAFA",
+            "slideFill": "#000000"
+          }
+        },
+        "action": {
+          "disabled": "rgba(0, 0, 0, 0.38)",
+          "disabledBackground": "rgba(0, 0, 0, 0.12)",
+          "hover": "rgba(0, 0, 0, 0.04)"
+        },
+        "common": {
+          "white_states": {
+            "main": "#FFFFFF",
+            "focusVisible": "rgba(255, 255, 255, 0.3)"
+          }
+        }
+      }
+    },
+    "dark": {
+      "palette": {
+        "primary": {
+          "main": "#00AAFF",
+          "dark": "#8BDDFD",
+          "light": "#D0F2FE",
+          "contrastText": "rgba(0, 0, 0, 0.87)",
+          "_states": {
+            "hover": "rgba(51, 152, 201, 0.08)",
+            "selected": "rgba(51, 152, 201, 0.16)",
+            "focus": "rgba(51, 152, 201, 0.12)",
+            "focusVisible": "rgba(51, 152, 201, 0.3)",
+            "outlinedBorder": "rgba(51, 152, 201, 0.5)"
+          }
+        },
+        "secondary": {
+          "main": "#FEAC2A",
+          "dark": "#FDC77C",
+          "light": "#FDDFB9",
+          "contrastText": "rgba(0, 0, 0, 0.87)",
+          "_states": {
+            "hover": "rgba(254, 172, 42, 0.08)",
+            "selected": "rgba(254, 172, 42, 0.16)",
+            "focus": "rgba(254, 172, 42, 0.12)",
+            "focusVisible": "rgba(254, 172, 42, 0.3)",
+            "outlinedBorder": "rgba(254, 172, 42, 0.5)"
+          }
+        },
+        "error": {
+          "main": "#F21E48",
+          "dark": "#EA547E",
+          "light": "#ECC5D8",
+          "contrastText": "#FFFFFF",
+          "_states": {
+            "hover": "rgba(242, 30, 72, 0.08)",
+            "selected": "rgba(242, 30, 72, 0.16)",
+            "focusVisible": "rgba(242, 30, 72, 0.3)",
+            "outlinedBorder": "rgba(242, 30, 72, 0.5)"
+          }
+        },
+        "warning": {
+          "main": "#E57709",
+          "dark": "#F9A55B",
+          "light": "#FCD9BE",
+          "contrastText": "rgba(0, 0, 0, 0.87)"
+        },
+        "info": {
+          "contrastText": "rgba(0, 0, 0, 0.87)",
+          "_states": {
+            "outlinedBorder": "rgba(41, 182, 246, 0.5)",
+            "hover": "rgba(41, 182, 246, 0.08)"
+          },
+          "main": "#29B6F6"
+        },
+        "success": {
+          "contrastText": "rgba(0, 0, 0, 0.87)",
+          "main": "#66BB6A",
+          "dark": "#388E3C",
+          "_states": {
+            "outlinedBorder": "rgba(102, 187, 106, 0.5)",
+            "focusVisible": "rgba(102, 187, 106, 0.3)",
+            "hover": "rgba(102, 187, 106, 0.08)"
+          }
+        },
+        "_components": {
+          "alert": {
+            "error": {
+              "color": "#FFFFFF",
+              "background": "#130500"
+            },
+            "info": {
+              "color": "#FFFFFF",
+              "background": "#001D30"
+            },
+            "success": {
+              "color": "#FFFFFF",
+              "background": "#000000"
+            }
+          },
+          "switch": {
+            "knobFillEnabled": "#E0E0E0",
+            "slideFill": "rgba(255, 255, 255, 0.38)"
+          }
+        },
+        "action": {
+          "disabled": "rgba(255, 255, 255, 0.38)",
+          "disabledBackground": "rgba(255, 255, 255, 0.12)",
+          "hover": "rgba(255, 255, 255, 0.08)"
+        },
+        "text": {
+          "_states": {
+            "focusVisible": "rgba(255, 255, 255, 0.3)"
+          }
+        },
+        "common": {
+          "white_states": {
+            "main": "#FFFFFF",
+            "focusVisible": "rgba(255, 255, 255, 0.3)"
+          }
+        }
+      }
+    }
+  },
+  "typography": {
+    "h1": {
+      "fontFamily": "IBM Plex Sans, Helvetica, Arial, sans-serif"
+    },
+    "h2": {
+      "fontFamily": "IBM Plex Sans, Helvetica, Arial, sans-serif"
+    },
+    "h3": {
+      "fontFamily": "IBM Plex Sans, Helvetica, Arial, sans-serif"
+    },
+    "h4": {
+      "fontFamily": "IBM Plex Sans, Helvetica, Arial, sans-serif"
+    },
+    "h5": {
+      "fontFamily": "IBM Plex Sans, Helvetica, Arial, sans-serif"
+    },
+    "h6": {
+      "fontFamily": "IBM Plex Sans, Helvetica, Arial, sans-serif"
+    },
+    "body1": {
+      "fontFamily": "IBM Plex Sans, Helvetica, Arial, sans-serif"
+    },
+    "body2": {
+      "fontFamily": "IBM Plex Sans, Helvetica, Arial, sans-serif"
+    },
+    "body2emphasized": {
+      "fontSize": "0.875rem",
+      "fontFamily": "IBM Plex Sans, Helvetica, Arial, sans-serif",
+      "fontStyle": "normal",
+      "fontWeight": 600,
+      "lineHeight": "143%",
+      "textTransform": "none",
+      "textDecorationLine": "none"
+    },
+    "body2mono": {
+      "fontSize": "0.875rem",
+      "fontFamily": "IBM Plex Mono, Helvetica, Arial, sans-serif",
+      "fontStyle": "normal",
+      "fontWeight": 400,
+      "lineHeight": "143%",
+      "textTransform": "none",
+      "textDecorationLine": "none"
+    },
+    "subtitle1": {
+      "fontFamily": "IBM Plex Sans, Helvetica, Arial, sans-serif"
+    },
+    "subtitle2": {
+      "fontFamily": "IBM Plex Sans, Helvetica, Arial, sans-serif"
+    },
+    "overline": {
+      "fontFamily": "IBM Plex Sans, Helvetica, Arial, sans-serif"
+    },
+    "caption": {
+      "fontFamily": "IBM Plex Sans, Helvetica, Arial, sans-serif"
+    }
+  },
+  "shape": {
+    "borderRadiusS": 4,
+    "borderRadiusM": 8,
+    "borderRadiusL": 16,
+    "borderRadiusFull": 1000
+  },
+  "components": {
+    "MuiButton": {
+      "styleOverrides": {
+        "root": {
+          "&.MuiButton-sizeLarge.MuiButton-containedPrimary": {
+            "fontFeatureSettings": "'liga' off, 'clig' off",
+            "fontFamily": "\"IBM Plex Sans\", Helvetica, Arial, sans-serif",
+            "fontSize": "0.9375rem",
+            "fontStyle": "normal",
+            "fontWeight": "500",
+            "lineHeight": "26px /* 173.333% */",
+            "letterSpacing": "0.46px",
+            "textTransform": "uppercase",
+            "padding": "8px 22px",
+            "borderRadius": "var(--mui-shape-borderRadiusS)",
+            "opacity": "1",
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-primary-contrastText)",
+              "background": "var(--mui-palette-primary-main)",
+              "boxShadow": "var(--mui-shadows-6)",
+              "& .MuiTouchRipple-root": {
+                "width": "91px",
+                "height": "42px",
+                "opacity": "0.3",
+                "background": "var(--mui-palette-primary-contrastText)",
+                "padding": "0",
+                "borderRadius": "0",
+                "boxShadow": "none"
+              }
+            },
+            "&:not(.Mui-disabled).Mui-focusVisible:not(:hover)": {
+              "color": "var(--mui-palette-primary-contrastText)",
+              "background": "var(--mui-palette-primary-main)",
+              "boxShadow": "var(--mui-shadows-6)"
+            },
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):hover": {
+              "color": "var(--mui-palette-primary-contrastText)",
+              "background": "var(--mui-palette-primary-dark)",
+              "boxShadow": "var(--mui-shadows-4)"
+            },
+            "&.Mui-disabled:not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-action-disabled)",
+              "background": "var(--mui-palette-action-disabledBackground)",
+              "boxShadow": "none"
+            }
+          },
+          "&.MuiButton-sizeLarge.MuiButton-containedInherit": {
+            "fontFeatureSettings": "'liga' off, 'clig' off",
+            "fontFamily": "\"IBM Plex Sans\", Helvetica, Arial, sans-serif",
+            "fontSize": "0.9375rem",
+            "fontStyle": "normal",
+            "fontWeight": "500",
+            "lineHeight": "26px /* 173.333% */",
+            "letterSpacing": "0.46px",
+            "textTransform": "uppercase",
+            "padding": "8px 22px",
+            "borderRadius": "var(--mui-shape-borderRadiusS)",
+            "opacity": "1",
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-text-primary)",
+              "background": "#E0E0E0",
+              "boxShadow": "var(--mui-shadows-6)",
+              "& .MuiTouchRipple-root": {
+                "width": "91px",
+                "height": "42px",
+                "background": "var(--mui-palette-text-_states-focusVisible)",
+                "padding": "0",
+                "opacity": "1",
+                "borderRadius": "0",
+                "boxShadow": "none"
+              }
+            },
+            "&:not(.Mui-disabled).Mui-focusVisible:not(:hover)": {
+              "color": "var(--mui-palette-text-primary)",
+              "background": "#E0E0E0",
+              "boxShadow": "var(--mui-shadows-6)"
+            },
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):hover": {
+              "color": "var(--mui-palette-text-primary)",
+              "background": "#F5F5F5",
+              "boxShadow": "var(--mui-shadows-4)"
+            },
+            "&.Mui-disabled:not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-action-disabled)",
+              "background": "var(--mui-palette-action-disabledBackground)",
+              "boxShadow": "none"
+            }
+          },
+          "&.MuiButton-sizeLarge.MuiButton-containedInherit (white)": {
+            "fontFeatureSettings": "'liga' off, 'clig' off",
+            "fontFamily": "\"IBM Plex Sans\", Helvetica, Arial, sans-serif",
+            "fontSize": "0.9375rem",
+            "fontStyle": "normal",
+            "fontWeight": "500",
+            "lineHeight": "26px /* 173.333% */",
+            "letterSpacing": "0.46px",
+            "textTransform": "uppercase",
+            "padding": "8px 22px",
+            "borderRadius": "var(--mui-shape-borderRadiusS)",
+            "opacity": "1",
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-common-white_states-main)",
+              "background": "#E0E0E0",
+              "boxShadow": "var(--mui-shadows-6)",
+              "& .MuiTouchRipple-root": {
+                "width": "91px",
+                "height": "42px",
+                "opacity": "0.3",
+                "background": "var(--mui-palette-common-white_states-main)",
+                "padding": "0",
+                "borderRadius": "0",
+                "boxShadow": "none"
+              }
+            },
+            "&:not(.Mui-disabled).Mui-focusVisible:not(:hover)": {
+              "color": "var(--mui-palette-common-white_states-main)",
+              "background": "#E0E0E0",
+              "boxShadow": "var(--mui-shadows-6)"
+            },
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):hover": {
+              "color": "var(--mui-palette-common-white_states-main)",
+              "background": "#F5F5F5",
+              "boxShadow": "var(--mui-shadows-4)"
+            },
+            "&.Mui-disabled:not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-action-disabled)",
+              "background": "var(--mui-palette-action-disabledBackground)",
+              "boxShadow": "none"
+            }
+          },
+          "&.MuiButton-sizeLarge.MuiButton-containedSecondary": {
+            "fontFeatureSettings": "'liga' off, 'clig' off",
+            "fontFamily": "\"IBM Plex Sans\", Helvetica, Arial, sans-serif",
+            "fontSize": "0.9375rem",
+            "fontStyle": "normal",
+            "fontWeight": "500",
+            "lineHeight": "26px /* 173.333% */",
+            "letterSpacing": "0.46px",
+            "textTransform": "uppercase",
+            "padding": "8px 22px",
+            "borderRadius": "var(--mui-shape-borderRadiusS)",
+            "opacity": "1",
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-secondary-contrastText)",
+              "background": "var(--mui-palette-secondary-main)",
+              "boxShadow": "var(--mui-shadows-6)",
+              "& .MuiTouchRipple-root": {
+                "width": "91px",
+                "height": "42px",
+                "opacity": "0.3",
+                "background": "var(--mui-palette-secondary-contrastText)",
+                "padding": "0",
+                "borderRadius": "0",
+                "boxShadow": "none"
+              }
+            },
+            "&:not(.Mui-disabled).Mui-focusVisible:not(:hover)": {
+              "color": "var(--mui-palette-secondary-contrastText)",
+              "background": "var(--mui-palette-secondary-main)",
+              "boxShadow": "var(--mui-shadows-6)",
+              "& .MuiTouchRipple-root": {
+                "width": "67px",
+                "height": "54px",
+                "borderRadius": "100px",
+                "opacity": "0.3",
+                "background": "var(--mui-palette-secondary-contrastText)",
+                "padding": "0",
+                "boxShadow": "none"
+              }
+            },
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):hover": {
+              "color": "var(--mui-palette-secondary-contrastText)",
+              "background": "var(--mui-palette-secondary-dark)",
+              "boxShadow": "var(--mui-shadows-4)"
+            },
+            "&.Mui-disabled:not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-action-disabled)",
+              "background": "var(--mui-palette-action-disabledBackground)",
+              "boxShadow": "none"
+            }
+          },
+          "&.MuiButton-sizeLarge.MuiButton-containedError": {
+            "fontFeatureSettings": "'liga' off, 'clig' off",
+            "fontFamily": "\"IBM Plex Sans\", Helvetica, Arial, sans-serif",
+            "fontSize": "0.9375rem",
+            "fontStyle": "normal",
+            "fontWeight": "500",
+            "lineHeight": "26px /* 173.333% */",
+            "letterSpacing": "0.46px",
+            "textTransform": "uppercase",
+            "padding": "8px 22px",
+            "borderRadius": "var(--mui-shape-borderRadiusS)",
+            "opacity": "1",
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-error-contrastText)",
+              "background": "var(--mui-palette-error-main)",
+              "boxShadow": "var(--mui-shadows-6)",
+              "& .MuiTouchRipple-root": {
+                "width": "91px",
+                "height": "42px",
+                "opacity": "0.3",
+                "background": "var(--mui-palette-error-contrastText)",
+                "padding": "0",
+                "borderRadius": "0",
+                "boxShadow": "none"
+              }
+            },
+            "&:not(.Mui-disabled).Mui-focusVisible:not(:hover)": {
+              "color": "var(--mui-palette-error-contrastText)",
+              "background": "var(--mui-palette-error-main)",
+              "boxShadow": "var(--mui-shadows-6)"
+            },
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):hover": {
+              "color": "var(--mui-palette-error-contrastText)",
+              "background": "var(--mui-palette-error-dark)",
+              "boxShadow": "var(--mui-shadows-4)"
+            },
+            "&.Mui-disabled:not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-action-disabled)",
+              "background": "var(--mui-palette-action-disabledBackground)",
+              "boxShadow": "none"
+            }
+          },
+          "&.MuiButton-sizeLarge.MuiButton-containedWarning": {
+            "fontFeatureSettings": "'liga' off, 'clig' off",
+            "fontFamily": "\"IBM Plex Sans\", Helvetica, Arial, sans-serif",
+            "fontSize": "0.9375rem",
+            "fontStyle": "normal",
+            "fontWeight": "500",
+            "lineHeight": "26px /* 173.333% */",
+            "letterSpacing": "0.46px",
+            "textTransform": "uppercase",
+            "padding": "8px 22px",
+            "borderRadius": "var(--mui-shape-borderRadiusS)",
+            "opacity": "1",
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-warning-contrastText)",
+              "background": "var(--mui-palette-warning-main)",
+              "boxShadow": "var(--mui-shadows-6)",
+              "& .MuiTouchRipple-root": {
+                "width": "91px",
+                "height": "42px",
+                "opacity": "0.3",
+                "background": "var(--mui-palette-warning-contrastText)",
+                "padding": "0",
+                "borderRadius": "0",
+                "boxShadow": "none"
+              }
+            },
+            "&:not(.Mui-disabled).Mui-focusVisible:not(:hover)": {
+              "color": "var(--mui-palette-warning-contrastText)",
+              "background": "var(--mui-palette-warning-main)",
+              "boxShadow": "var(--mui-shadows-6)",
+              "& .MuiTouchRipple-root": {
+                "width": "67px",
+                "height": "54px",
+                "borderRadius": "100px",
+                "opacity": "0.3",
+                "background": "var(--mui-palette-warning-contrastText)",
+                "padding": "0",
+                "boxShadow": "none"
+              }
+            },
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):hover": {
+              "color": "var(--mui-palette-warning-contrastText)",
+              "background": "var(--mui-palette-warning-dark)",
+              "boxShadow": "var(--mui-shadows-4)"
+            },
+            "&.Mui-disabled:not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-action-disabled)",
+              "background": "var(--mui-palette-action-disabledBackground)",
+              "boxShadow": "none"
+            }
+          },
+          "&.MuiButton-sizeLarge.MuiButton-containedInfo": {
+            "fontFeatureSettings": "'liga' off, 'clig' off",
+            "fontFamily": "\"IBM Plex Sans\", Helvetica, Arial, sans-serif",
+            "fontSize": "0.9375rem",
+            "fontStyle": "normal",
+            "fontWeight": "500",
+            "lineHeight": "26px /* 173.333% */",
+            "letterSpacing": "0.46px",
+            "textTransform": "uppercase",
+            "padding": "8px 22px",
+            "borderRadius": "var(--mui-shape-borderRadiusS)",
+            "opacity": "1",
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-info-contrastText)",
+              "background": "var(--mui-palette-info-main)",
+              "boxShadow": "var(--mui-shadows-6)",
+              "& .MuiTouchRipple-root": {
+                "width": "91px",
+                "height": "42px",
+                "opacity": "0.3",
+                "background": "var(--mui-palette-info-contrastText)",
+                "padding": "0",
+                "borderRadius": "0",
+                "boxShadow": "none"
+              }
+            },
+            "&:not(.Mui-disabled).Mui-focusVisible:not(:hover)": {
+              "color": "var(--mui-palette-info-contrastText)",
+              "background": "var(--mui-palette-info-main)",
+              "boxShadow": "var(--mui-shadows-6)",
+              "& .MuiTouchRipple-root": {
+                "width": "67px",
+                "height": "54px",
+                "borderRadius": "100px",
+                "opacity": "0.3",
+                "background": "var(--mui-palette-info-contrastText)",
+                "padding": "0",
+                "boxShadow": "none"
+              }
+            },
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):hover": {
+              "color": "var(--mui-palette-info-contrastText)",
+              "background": "var(--mui-palette-info-dark)",
+              "boxShadow": "var(--mui-shadows-4)"
+            },
+            "&.Mui-disabled:not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-action-disabled)",
+              "background": "var(--mui-palette-action-disabledBackground)",
+              "boxShadow": "none"
+            }
+          },
+          "&.MuiButton-sizeLarge.MuiButton-containedSuccess": {
+            "fontFeatureSettings": "'liga' off, 'clig' off",
+            "fontFamily": "\"IBM Plex Sans\", Helvetica, Arial, sans-serif",
+            "fontSize": "0.9375rem",
+            "fontStyle": "normal",
+            "fontWeight": "500",
+            "lineHeight": "26px /* 173.333% */",
+            "letterSpacing": "0.46px",
+            "textTransform": "uppercase",
+            "padding": "8px 22px",
+            "borderRadius": "var(--mui-shape-borderRadiusS)",
+            "opacity": "1",
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-success-contrastText)",
+              "background": "var(--mui-palette-success-main)",
+              "boxShadow": "var(--mui-shadows-6)",
+              "& .MuiTouchRipple-root": {
+                "width": "91px",
+                "height": "42px",
+                "opacity": "0.3",
+                "background": "var(--mui-palette-success-contrastText)",
+                "padding": "0",
+                "borderRadius": "0",
+                "boxShadow": "none"
+              }
+            },
+            "&:not(.Mui-disabled).Mui-focusVisible:not(:hover)": {
+              "color": "var(--mui-palette-success-contrastText)",
+              "background": "var(--mui-palette-success-main)",
+              "boxShadow": "var(--mui-shadows-6)"
+            },
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):hover": {
+              "color": "var(--mui-palette-success-contrastText)",
+              "background": "var(--mui-palette-success-dark)",
+              "boxShadow": "var(--mui-shadows-4)"
+            },
+            "&.Mui-disabled:not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-action-disabled)",
+              "background": "var(--mui-palette-action-disabledBackground)",
+              "boxShadow": "none"
+            }
+          },
+          "&.MuiButton-sizeMedium.MuiButton-containedPrimary": {
+            "fontFamily": "\"IBM Plex Sans\", Helvetica, Arial, sans-serif",
+            "fontSize": "0.875rem",
+            "fontStyle": "normal",
+            "fontWeight": "500",
+            "lineHeight": "24px /* 171.429% */",
+            "letterSpacing": "0.4px",
+            "textTransform": "uppercase",
+            "padding": "6px 16px",
+            "borderRadius": "var(--mui-shape-borderRadiusS)",
+            "opacity": "1",
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-primary-contrastText)",
+              "background": "var(--mui-palette-primary-main)",
+              "boxShadow": "var(--mui-shadows-6)",
+              "& .MuiTouchRipple-root": {
+                "width": "75px",
+                "height": "36px",
+                "opacity": "0.3",
+                "background": "var(--mui-palette-primary-contrastText)",
+                "padding": "0",
+                "borderRadius": "0",
+                "boxShadow": "none"
+              }
+            },
+            "&:not(.Mui-disabled).Mui-focusVisible:not(:hover)": {
+              "color": "var(--mui-palette-primary-contrastText)",
+              "background": "var(--mui-palette-primary-main)",
+              "boxShadow": "var(--mui-shadows-6)"
+            },
+            "&.Mui-disabled:not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-action-disabled)",
+              "background": "var(--mui-palette-action-disabledBackground)",
+              "boxShadow": "none"
+            },
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):hover": {
+              "color": "var(--mui-palette-primary-contrastText)",
+              "background": "var(--mui-palette-primary-dark)",
+              "boxShadow": "var(--mui-shadows-4)"
+            }
+          },
+          "&.MuiButton-sizeMedium.MuiButton-containedInherit": {
+            "fontFamily": "\"IBM Plex Sans\", Helvetica, Arial, sans-serif",
+            "fontSize": "0.875rem",
+            "fontStyle": "normal",
+            "fontWeight": "500",
+            "lineHeight": "24px /* 171.429% */",
+            "letterSpacing": "0.4px",
+            "textTransform": "uppercase",
+            "padding": "6px 16px",
+            "borderRadius": "var(--mui-shape-borderRadiusS)",
+            "opacity": "1",
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-text-primary)",
+              "background": "#E0E0E0",
+              "boxShadow": "var(--mui-shadows-6)",
+              "& .MuiTouchRipple-root": {
+                "width": "75px",
+                "height": "36px",
+                "background": "var(--mui-palette-text-_states-focusVisible)",
+                "padding": "0",
+                "opacity": "1",
+                "borderRadius": "0",
+                "boxShadow": "none"
+              }
+            },
+            "&:not(.Mui-disabled).Mui-focusVisible:not(:hover)": {
+              "color": "var(--mui-palette-text-primary)",
+              "background": "#E0E0E0",
+              "boxShadow": "var(--mui-shadows-6)"
+            },
+            "&.Mui-disabled:not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-action-disabled)",
+              "background": "var(--mui-palette-action-disabledBackground)",
+              "boxShadow": "none"
+            },
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):hover": {
+              "color": "var(--mui-palette-text-primary)",
+              "background": "#F5F5F5",
+              "boxShadow": "var(--mui-shadows-4)"
+            }
+          },
+          "&.MuiButton-sizeMedium.MuiButton-containedInherit (white)": {
+            "fontFamily": "\"IBM Plex Sans\", Helvetica, Arial, sans-serif",
+            "fontSize": "0.875rem",
+            "fontStyle": "normal",
+            "fontWeight": "500",
+            "lineHeight": "24px /* 171.429% */",
+            "letterSpacing": "0.4px",
+            "textTransform": "uppercase",
+            "padding": "6px 16px",
+            "borderRadius": "var(--mui-shape-borderRadiusS)",
+            "opacity": "1",
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-common-white_states-main)",
+              "background": "#E0E0E0",
+              "boxShadow": "var(--mui-shadows-6)",
+              "& .MuiTouchRipple-root": {
+                "width": "75px",
+                "height": "36px",
+                "opacity": "0.3",
+                "background": "var(--mui-palette-common-white_states-main)",
+                "padding": "0",
+                "borderRadius": "0",
+                "boxShadow": "none"
+              }
+            },
+            "&:not(.Mui-disabled).Mui-focusVisible:not(:hover)": {
+              "color": "var(--mui-palette-common-white_states-main)",
+              "background": "#E0E0E0",
+              "boxShadow": "var(--mui-shadows-6)"
+            },
+            "&.Mui-disabled:not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-action-disabled)",
+              "background": "var(--mui-palette-action-disabledBackground)",
+              "boxShadow": "none"
+            },
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):hover": {
+              "color": "var(--mui-palette-common-white_states-main)",
+              "background": "#F5F5F5",
+              "boxShadow": "var(--mui-shadows-4)"
+            }
+          },
+          "&.MuiButton-sizeMedium.MuiButton-containedSecondary": {
+            "fontFamily": "\"IBM Plex Sans\", Helvetica, Arial, sans-serif",
+            "fontSize": "0.875rem",
+            "fontStyle": "normal",
+            "fontWeight": "500",
+            "lineHeight": "24px /* 171.429% */",
+            "letterSpacing": "0.4px",
+            "textTransform": "uppercase",
+            "padding": "6px 16px",
+            "borderRadius": "var(--mui-shape-borderRadiusS)",
+            "opacity": "1",
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-secondary-contrastText)",
+              "background": "var(--mui-palette-secondary-main)",
+              "boxShadow": "var(--mui-shadows-6)",
+              "& .MuiTouchRipple-root": {
+                "width": "75px",
+                "height": "36px",
+                "opacity": "0.3",
+                "background": "var(--mui-palette-secondary-contrastText)",
+                "padding": "0",
+                "borderRadius": "0",
+                "boxShadow": "none"
+              }
+            },
+            "&:not(.Mui-disabled).Mui-focusVisible:not(:hover)": {
+              "color": "var(--mui-palette-secondary-contrastText)",
+              "background": "var(--mui-palette-secondary-main)",
+              "boxShadow": "var(--mui-shadows-6)",
+              "& .MuiTouchRipple-root": {
+                "width": "55.22px",
+                "height": "46.286px",
+                "borderRadius": "100px",
+                "opacity": "0.3",
+                "background": "var(--mui-palette-secondary-contrastText)",
+                "padding": "0",
+                "boxShadow": "none"
+              }
+            },
+            "&.Mui-disabled:not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-action-disabled)",
+              "background": "var(--mui-palette-action-disabledBackground)",
+              "boxShadow": "none"
+            },
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):hover": {
+              "color": "var(--mui-palette-secondary-contrastText)",
+              "background": "var(--mui-palette-secondary-dark)",
+              "boxShadow": "var(--mui-shadows-4)"
+            }
+          },
+          "&.MuiButton-sizeMedium.MuiButton-containedError": {
+            "fontFamily": "\"IBM Plex Sans\", Helvetica, Arial, sans-serif",
+            "fontSize": "0.875rem",
+            "fontStyle": "normal",
+            "fontWeight": "500",
+            "lineHeight": "24px /* 171.429% */",
+            "letterSpacing": "0.4px",
+            "textTransform": "uppercase",
+            "padding": "6px 16px",
+            "borderRadius": "var(--mui-shape-borderRadiusS)",
+            "opacity": "1",
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-error-contrastText)",
+              "background": "var(--mui-palette-error-main)",
+              "boxShadow": "var(--mui-shadows-6)",
+              "& .MuiTouchRipple-root": {
+                "width": "75px",
+                "height": "36px",
+                "opacity": "0.3",
+                "background": "var(--mui-palette-error-contrastText)",
+                "padding": "0",
+                "borderRadius": "0",
+                "boxShadow": "none"
+              }
+            },
+            "&:not(.Mui-disabled).Mui-focusVisible:not(:hover)": {
+              "color": "var(--mui-palette-error-contrastText)",
+              "background": "var(--mui-palette-error-main)",
+              "boxShadow": "var(--mui-shadows-6)"
+            },
+            "&.Mui-disabled:not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-action-disabled)",
+              "background": "var(--mui-palette-action-disabledBackground)",
+              "boxShadow": "none"
+            },
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):hover": {
+              "color": "var(--mui-palette-error-contrastText)",
+              "background": "var(--mui-palette-error-dark)",
+              "boxShadow": "var(--mui-shadows-4)"
+            }
+          },
+          "&.MuiButton-sizeMedium.MuiButton-containedWarning": {
+            "fontFamily": "\"IBM Plex Sans\", Helvetica, Arial, sans-serif",
+            "fontSize": "0.875rem",
+            "fontStyle": "normal",
+            "fontWeight": "500",
+            "lineHeight": "24px /* 171.429% */",
+            "letterSpacing": "0.4px",
+            "textTransform": "uppercase",
+            "padding": "6px 16px",
+            "borderRadius": "var(--mui-shape-borderRadiusS)",
+            "opacity": "1",
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-warning-contrastText)",
+              "background": "var(--mui-palette-warning-main)",
+              "boxShadow": "var(--mui-shadows-6)",
+              "& .MuiTouchRipple-root": {
+                "width": "75px",
+                "height": "36px",
+                "opacity": "0.3",
+                "background": "var(--mui-palette-warning-contrastText)",
+                "padding": "0",
+                "borderRadius": "0",
+                "boxShadow": "none"
+              }
+            },
+            "&:not(.Mui-disabled).Mui-focusVisible:not(:hover)": {
+              "color": "var(--mui-palette-warning-contrastText)",
+              "background": "var(--mui-palette-warning-main)",
+              "boxShadow": "var(--mui-shadows-6)",
+              "& .MuiTouchRipple-root": {
+                "width": "55.22px",
+                "height": "46.286px",
+                "borderRadius": "100px",
+                "opacity": "0.3",
+                "background": "var(--mui-palette-warning-contrastText)",
+                "padding": "0",
+                "boxShadow": "none"
+              }
+            },
+            "&.Mui-disabled:not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-action-disabled)",
+              "background": "var(--mui-palette-action-disabledBackground)",
+              "boxShadow": "none"
+            },
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):hover": {
+              "color": "var(--mui-palette-warning-contrastText)",
+              "background": "var(--mui-palette-warning-dark)",
+              "boxShadow": "var(--mui-shadows-4)"
+            }
+          },
+          "&.MuiButton-sizeMedium.MuiButton-containedInfo": {
+            "fontFamily": "\"IBM Plex Sans\", Helvetica, Arial, sans-serif",
+            "fontSize": "0.875rem",
+            "fontStyle": "normal",
+            "fontWeight": "500",
+            "lineHeight": "24px /* 171.429% */",
+            "letterSpacing": "0.4px",
+            "textTransform": "uppercase",
+            "padding": "6px 16px",
+            "borderRadius": "var(--mui-shape-borderRadiusS)",
+            "opacity": "1",
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-info-contrastText)",
+              "background": "var(--mui-palette-info-main)",
+              "boxShadow": "var(--mui-shadows-6)",
+              "& .MuiTouchRipple-root": {
+                "width": "75px",
+                "height": "36px",
+                "opacity": "0.3",
+                "background": "var(--mui-palette-info-contrastText)",
+                "padding": "0",
+                "borderRadius": "0",
+                "boxShadow": "none"
+              }
+            },
+            "&:not(.Mui-disabled).Mui-focusVisible:not(:hover)": {
+              "color": "var(--mui-palette-info-contrastText)",
+              "background": "var(--mui-palette-info-main)",
+              "boxShadow": "var(--mui-shadows-6)",
+              "& .MuiTouchRipple-root": {
+                "width": "55.22px",
+                "height": "46.286px",
+                "borderRadius": "100px",
+                "opacity": "0.3",
+                "background": "var(--mui-palette-info-contrastText)",
+                "padding": "0",
+                "boxShadow": "none"
+              }
+            },
+            "&.Mui-disabled:not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-action-disabled)",
+              "background": "var(--mui-palette-action-disabledBackground)",
+              "boxShadow": "none"
+            },
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):hover": {
+              "color": "var(--mui-palette-info-contrastText)",
+              "background": "var(--mui-palette-info-dark)",
+              "boxShadow": "var(--mui-shadows-4)"
+            }
+          },
+          "&.MuiButton-sizeMedium.MuiButton-containedSuccess": {
+            "fontFamily": "\"IBM Plex Sans\", Helvetica, Arial, sans-serif",
+            "fontSize": "0.875rem",
+            "fontStyle": "normal",
+            "fontWeight": "500",
+            "lineHeight": "24px /* 171.429% */",
+            "letterSpacing": "0.4px",
+            "textTransform": "uppercase",
+            "padding": "6px 16px",
+            "borderRadius": "var(--mui-shape-borderRadiusS)",
+            "opacity": "1",
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-success-contrastText)",
+              "background": "var(--mui-palette-success-main)",
+              "boxShadow": "var(--mui-shadows-6)",
+              "& .MuiTouchRipple-root": {
+                "width": "75px",
+                "height": "36px",
+                "opacity": "0.3",
+                "background": "var(--mui-palette-success-contrastText)",
+                "padding": "0",
+                "borderRadius": "0",
+                "boxShadow": "none"
+              }
+            },
+            "&:not(.Mui-disabled).Mui-focusVisible:not(:hover)": {
+              "color": "var(--mui-palette-success-contrastText)",
+              "background": "var(--mui-palette-success-main)",
+              "boxShadow": "var(--mui-shadows-6)"
+            },
+            "&.Mui-disabled:not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-action-disabled)",
+              "background": "var(--mui-palette-action-disabledBackground)",
+              "boxShadow": "none"
+            },
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):hover": {
+              "color": "var(--mui-palette-success-contrastText)",
+              "background": "var(--mui-palette-success-dark)",
+              "boxShadow": "var(--mui-shadows-4)"
+            }
+          },
+          "&.MuiButton-sizeSmall.MuiButton-containedPrimary": {
+            "fontFamily": "\"IBM Plex Sans\", Helvetica, Arial, sans-serif",
+            "fontSize": "0.8125rem",
+            "fontStyle": "normal",
+            "fontWeight": "500",
+            "lineHeight": "22px /* 169.231% */",
+            "letterSpacing": "0.46px",
+            "textTransform": "uppercase",
+            "padding": "4px 10px",
+            "borderRadius": "var(--mui-shape-borderRadiusS)",
+            "opacity": "1",
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-primary-contrastText)",
+              "background": "var(--mui-palette-primary-main)",
+              "boxShadow": "var(--mui-shadows-6)",
+              "& .MuiTouchRipple-root": {
+                "width": "61px",
+                "height": "30px",
+                "opacity": "0.3",
+                "background": "var(--mui-palette-primary-contrastText)",
+                "padding": "0",
+                "borderRadius": "0",
+                "boxShadow": "none"
+              }
+            },
+            "&:not(.Mui-disabled).Mui-focusVisible:not(:hover)": {
+              "color": "var(--mui-palette-primary-contrastText)",
+              "background": "var(--mui-palette-primary-main)",
+              "boxShadow": "var(--mui-shadows-6)"
+            },
+            "&.Mui-disabled:not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-action-disabled)",
+              "background": "var(--mui-palette-action-disabledBackground)",
+              "boxShadow": "none"
+            },
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):hover": {
+              "color": "var(--mui-palette-primary-contrastText)",
+              "background": "var(--mui-palette-primary-dark)",
+              "boxShadow": "var(--mui-shadows-4)"
+            }
+          },
+          "&.MuiButton-sizeSmall.MuiButton-containedInherit": {
+            "fontFamily": "\"IBM Plex Sans\", Helvetica, Arial, sans-serif",
+            "fontSize": "0.8125rem",
+            "fontStyle": "normal",
+            "fontWeight": "500",
+            "lineHeight": "22px /* 169.231% */",
+            "letterSpacing": "0.46px",
+            "textTransform": "uppercase",
+            "padding": "4px 10px",
+            "borderRadius": "var(--mui-shape-borderRadiusS)",
+            "opacity": "1",
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-text-primary)",
+              "background": "#E0E0E0",
+              "boxShadow": "var(--mui-shadows-6)",
+              "& .MuiTouchRipple-root": {
+                "width": "61px",
+                "height": "30px",
+                "background": "var(--mui-palette-text-_states-focusVisible)",
+                "padding": "0",
+                "opacity": "1",
+                "borderRadius": "0",
+                "boxShadow": "none"
+              }
+            },
+            "&:not(.Mui-disabled).Mui-focusVisible:not(:hover)": {
+              "color": "var(--mui-palette-text-primary)",
+              "background": "#E0E0E0",
+              "boxShadow": "var(--mui-shadows-6)"
+            },
+            "&.Mui-disabled:not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-action-disabled)",
+              "background": "var(--mui-palette-action-disabledBackground)",
+              "boxShadow": "none"
+            },
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):hover": {
+              "color": "var(--mui-palette-text-primary)",
+              "background": "#F5F5F5",
+              "boxShadow": "var(--mui-shadows-4)"
+            }
+          },
+          "&.MuiButton-sizeSmall.MuiButton-containedInherit (white)": {
+            "fontFamily": "\"IBM Plex Sans\", Helvetica, Arial, sans-serif",
+            "fontSize": "0.8125rem",
+            "fontStyle": "normal",
+            "fontWeight": "500",
+            "lineHeight": "22px /* 169.231% */",
+            "letterSpacing": "0.46px",
+            "textTransform": "uppercase",
+            "padding": "4px 10px",
+            "borderRadius": "var(--mui-shape-borderRadiusS)",
+            "opacity": "1",
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-common-white_states-main)",
+              "background": "#E0E0E0",
+              "boxShadow": "var(--mui-shadows-6)",
+              "& .MuiTouchRipple-root": {
+                "width": "61px",
+                "height": "30px",
+                "opacity": "0.3",
+                "background": "var(--mui-palette-common-white_states-main)",
+                "padding": "0",
+                "borderRadius": "0",
+                "boxShadow": "none"
+              }
+            },
+            "&:not(.Mui-disabled).Mui-focusVisible:not(:hover)": {
+              "color": "var(--mui-palette-common-white_states-main)",
+              "background": "#E0E0E0",
+              "boxShadow": "var(--mui-shadows-6)"
+            },
+            "&.Mui-disabled:not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-action-disabled)",
+              "background": "var(--mui-palette-action-disabledBackground)",
+              "boxShadow": "none"
+            },
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):hover": {
+              "color": "var(--mui-palette-common-white_states-main)",
+              "background": "#F5F5F5",
+              "boxShadow": "var(--mui-shadows-4)"
+            }
+          },
+          "&.MuiButton-sizeSmall.MuiButton-containedSecondary": {
+            "fontFamily": "\"IBM Plex Sans\", Helvetica, Arial, sans-serif",
+            "fontSize": "0.8125rem",
+            "fontStyle": "normal",
+            "fontWeight": "500",
+            "lineHeight": "22px /* 169.231% */",
+            "letterSpacing": "0.46px",
+            "textTransform": "uppercase",
+            "padding": "4px 10px",
+            "borderRadius": "var(--mui-shape-borderRadiusS)",
+            "opacity": "1",
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-secondary-contrastText)",
+              "background": "var(--mui-palette-secondary-main)",
+              "boxShadow": "var(--mui-shadows-6)",
+              "& .MuiTouchRipple-root": {
+                "width": "61px",
+                "height": "30px",
+                "opacity": "0.3",
+                "background": "var(--mui-palette-secondary-contrastText)",
+                "padding": "0",
+                "borderRadius": "0",
+                "boxShadow": "none"
+              }
+            },
+            "&:not(.Mui-disabled).Mui-focusVisible:not(:hover)": {
+              "color": "var(--mui-palette-secondary-contrastText)",
+              "background": "var(--mui-palette-secondary-main)",
+              "boxShadow": "var(--mui-shadows-6)",
+              "& .MuiTouchRipple-root": {
+                "width": "44.912px",
+                "height": "38.571px",
+                "borderRadius": "100px",
+                "opacity": "0.3",
+                "background": "var(--mui-palette-secondary-contrastText)",
+                "padding": "0",
+                "boxShadow": "none"
+              }
+            },
+            "&.Mui-disabled:not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-action-disabled)",
+              "background": "var(--mui-palette-action-disabledBackground)",
+              "boxShadow": "none"
+            },
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):hover": {
+              "color": "var(--mui-palette-secondary-contrastText)",
+              "background": "var(--mui-palette-secondary-dark)",
+              "boxShadow": "var(--mui-shadows-4)"
+            }
+          },
+          "&.MuiButton-sizeSmall.MuiButton-containedError": {
+            "fontFamily": "\"IBM Plex Sans\", Helvetica, Arial, sans-serif",
+            "fontSize": "0.8125rem",
+            "fontStyle": "normal",
+            "fontWeight": "500",
+            "lineHeight": "22px /* 169.231% */",
+            "letterSpacing": "0.46px",
+            "textTransform": "uppercase",
+            "padding": "4px 10px",
+            "borderRadius": "var(--mui-shape-borderRadiusS)",
+            "opacity": "1",
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-error-contrastText)",
+              "background": "var(--mui-palette-error-main)",
+              "boxShadow": "var(--mui-shadows-6)",
+              "& .MuiTouchRipple-root": {
+                "width": "61px",
+                "height": "30px",
+                "opacity": "0.3",
+                "background": "var(--mui-palette-error-contrastText)",
+                "padding": "0",
+                "borderRadius": "0",
+                "boxShadow": "none"
+              }
+            },
+            "&:not(.Mui-disabled).Mui-focusVisible:not(:hover)": {
+              "color": "var(--mui-palette-error-contrastText)",
+              "background": "var(--mui-palette-error-main)",
+              "boxShadow": "var(--mui-shadows-6)"
+            },
+            "&.Mui-disabled:not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-action-disabled)",
+              "background": "var(--mui-palette-action-disabledBackground)",
+              "boxShadow": "none"
+            },
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):hover": {
+              "color": "var(--mui-palette-error-contrastText)",
+              "background": "var(--mui-palette-error-dark)",
+              "boxShadow": "var(--mui-shadows-4)"
+            }
+          },
+          "&.MuiButton-sizeSmall.MuiButton-containedWarning": {
+            "fontFamily": "\"IBM Plex Sans\", Helvetica, Arial, sans-serif",
+            "fontSize": "0.8125rem",
+            "fontStyle": "normal",
+            "fontWeight": "500",
+            "lineHeight": "22px /* 169.231% */",
+            "letterSpacing": "0.46px",
+            "textTransform": "uppercase",
+            "padding": "4px 10px",
+            "borderRadius": "var(--mui-shape-borderRadiusS)",
+            "opacity": "1",
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-warning-contrastText)",
+              "background": "var(--mui-palette-warning-main)",
+              "boxShadow": "var(--mui-shadows-6)",
+              "& .MuiTouchRipple-root": {
+                "width": "61px",
+                "height": "30px",
+                "opacity": "0.3",
+                "background": "var(--mui-palette-warning-contrastText)",
+                "padding": "0",
+                "borderRadius": "0",
+                "boxShadow": "none"
+              }
+            },
+            "&:not(.Mui-disabled).Mui-focusVisible:not(:hover)": {
+              "color": "var(--mui-palette-warning-contrastText)",
+              "background": "var(--mui-palette-warning-main)",
+              "boxShadow": "var(--mui-shadows-6)",
+              "& .MuiTouchRipple-root": {
+                "width": "44.912px",
+                "height": "38.571px",
+                "borderRadius": "100px",
+                "opacity": "0.3",
+                "background": "var(--mui-palette-warning-contrastText)",
+                "padding": "0",
+                "boxShadow": "none"
+              }
+            },
+            "&.Mui-disabled:not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-action-disabled)",
+              "background": "var(--mui-palette-action-disabledBackground)",
+              "boxShadow": "none"
+            },
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):hover": {
+              "color": "var(--mui-palette-warning-contrastText)",
+              "background": "var(--mui-palette-warning-dark)",
+              "boxShadow": "var(--mui-shadows-4)"
+            }
+          },
+          "&.MuiButton-sizeSmall.MuiButton-containedInfo": {
+            "fontFamily": "\"IBM Plex Sans\", Helvetica, Arial, sans-serif",
+            "fontSize": "0.8125rem",
+            "fontStyle": "normal",
+            "fontWeight": "500",
+            "lineHeight": "22px /* 169.231% */",
+            "letterSpacing": "0.46px",
+            "textTransform": "uppercase",
+            "padding": "4px 10px",
+            "borderRadius": "var(--mui-shape-borderRadiusS)",
+            "opacity": "1",
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-info-contrastText)",
+              "background": "var(--mui-palette-info-main)",
+              "boxShadow": "var(--mui-shadows-6)",
+              "& .MuiTouchRipple-root": {
+                "width": "61px",
+                "height": "30px",
+                "opacity": "0.3",
+                "background": "var(--mui-palette-info-contrastText)",
+                "padding": "0",
+                "borderRadius": "0",
+                "boxShadow": "none"
+              }
+            },
+            "&:not(.Mui-disabled).Mui-focusVisible:not(:hover)": {
+              "color": "var(--mui-palette-info-contrastText)",
+              "background": "var(--mui-palette-info-main)",
+              "boxShadow": "var(--mui-shadows-6)",
+              "& .MuiTouchRipple-root": {
+                "width": "44.912px",
+                "height": "38.571px",
+                "borderRadius": "100px",
+                "opacity": "0.3",
+                "background": "var(--mui-palette-info-contrastText)",
+                "padding": "0",
+                "boxShadow": "none"
+              }
+            },
+            "&.Mui-disabled:not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-action-disabled)",
+              "background": "var(--mui-palette-action-disabledBackground)",
+              "boxShadow": "none"
+            },
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):hover": {
+              "color": "var(--mui-palette-info-contrastText)",
+              "background": "var(--mui-palette-info-dark)",
+              "boxShadow": "var(--mui-shadows-4)"
+            }
+          },
+          "&.MuiButton-sizeSmall.MuiButton-containedSuccess": {
+            "fontFamily": "\"IBM Plex Sans\", Helvetica, Arial, sans-serif",
+            "fontSize": "0.8125rem",
+            "fontStyle": "normal",
+            "fontWeight": "500",
+            "lineHeight": "22px /* 169.231% */",
+            "letterSpacing": "0.46px",
+            "textTransform": "uppercase",
+            "padding": "4px 10px",
+            "borderRadius": "var(--mui-shape-borderRadiusS)",
+            "opacity": "1",
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-success-contrastText)",
+              "background": "var(--mui-palette-success-main)",
+              "boxShadow": "var(--mui-shadows-6)",
+              "& .MuiTouchRipple-root": {
+                "width": "61px",
+                "height": "30px",
+                "opacity": "0.3",
+                "background": "var(--mui-palette-success-contrastText)",
+                "padding": "0",
+                "borderRadius": "0",
+                "boxShadow": "none"
+              }
+            },
+            "&:not(.Mui-disabled).Mui-focusVisible:not(:hover)": {
+              "color": "var(--mui-palette-success-contrastText)",
+              "background": "var(--mui-palette-success-main)",
+              "boxShadow": "var(--mui-shadows-6)"
+            },
+            "&.Mui-disabled:not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-action-disabled)",
+              "background": "var(--mui-palette-action-disabledBackground)",
+              "boxShadow": "none"
+            },
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):hover": {
+              "color": "var(--mui-palette-success-contrastText)",
+              "background": "var(--mui-palette-success-dark)",
+              "boxShadow": "var(--mui-shadows-4)"
+            }
+          },
+          "&.MuiButton-sizeLarge.MuiButton-outlinedPrimary": {
+            "fontFeatureSettings": "'liga' off, 'clig' off",
+            "fontFamily": "\"IBM Plex Sans\", Helvetica, Arial, sans-serif",
+            "fontSize": "0.9375rem",
+            "fontStyle": "normal",
+            "fontWeight": "500",
+            "lineHeight": "26px /* 173.333% */",
+            "letterSpacing": "0.46px",
+            "textTransform": "uppercase",
+            "padding": "8px 22px",
+            "borderRadius": "var(--mui-shape-borderRadiusS)",
+            "opacity": "1",
+            "boxShadow": "none",
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-primary-main)",
+              "border": "1px solid var(--mui-palette-primary-_states-outlinedBorder)",
+              "background": "none",
+              "& .MuiTouchRipple-root": {
+                "width": "91px",
+                "height": "42px",
+                "background": "var(--mui-palette-primary-_states-focusVisible)",
+                "padding": "0",
+                "opacity": "1",
+                "borderRadius": "0",
+                "boxShadow": "none"
+              }
+            },
+            "&:not(.Mui-disabled).Mui-focusVisible:not(:hover)": {
+              "color": "var(--mui-palette-primary-main)",
+              "border": "1px solid var(--mui-palette-primary-_states-outlinedBorder)",
+              "background": "none"
+            },
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):hover": {
+              "color": "var(--mui-palette-primary-main)",
+              "border": "1px solid var(--mui-palette-primary-_states-outlinedBorder)",
+              "background": "var(--mui-palette-primary-_states-hover)"
+            },
+            "&.Mui-disabled:not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-action-disabled)",
+              "border": "1px solid var(--mui-palette-action-disabledBackground)",
+              "background": "none"
+            }
+          },
+          "&.MuiButton-sizeLarge.MuiButton-outlinedInherit": {
+            "fontFeatureSettings": "'liga' off, 'clig' off",
+            "fontFamily": "\"IBM Plex Sans\", Helvetica, Arial, sans-serif",
+            "fontSize": "0.9375rem",
+            "fontStyle": "normal",
+            "fontWeight": "500",
+            "lineHeight": "26px /* 173.333% */",
+            "letterSpacing": "0.46px",
+            "textTransform": "uppercase",
+            "padding": "8px 22px",
+            "borderRadius": "var(--mui-shape-borderRadiusS)",
+            "opacity": "1",
+            "boxShadow": "none",
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-text-primary)",
+              "border": "1px solid var(--mui-palette-text-primary)",
+              "background": "none",
+              "& .MuiTouchRipple-root": {
+                "width": "91px",
+                "height": "42px",
+                "background": "var(--mui-palette-text-_states-focusVisible)",
+                "padding": "0",
+                "opacity": "1",
+                "borderRadius": "0",
+                "boxShadow": "none"
+              }
+            },
+            "&:not(.Mui-disabled).Mui-focusVisible:not(:hover)": {
+              "color": "var(--mui-palette-text-primary)",
+              "border": "1px solid var(--mui-palette-text-primary)",
+              "background": "none"
+            },
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):hover": {
+              "color": "var(--mui-palette-text-primary)",
+              "border": "1px solid var(--mui-palette-text-primary)",
+              "background": "var(--mui-palette-action-hover)"
+            },
+            "&.Mui-disabled:not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-action-disabled)",
+              "border": "1px solid var(--mui-palette-action-disabledBackground)",
+              "background": "none"
+            }
+          },
+          "&.MuiButton-sizeLarge.MuiButton-outlinedInherit (white)": {
+            "fontFeatureSettings": "'liga' off, 'clig' off",
+            "fontFamily": "\"IBM Plex Sans\", Helvetica, Arial, sans-serif",
+            "fontSize": "0.9375rem",
+            "fontStyle": "normal",
+            "fontWeight": "500",
+            "lineHeight": "26px /* 173.333% */",
+            "letterSpacing": "0.46px",
+            "textTransform": "uppercase",
+            "padding": "8px 22px",
+            "borderRadius": "var(--mui-shape-borderRadiusS)",
+            "opacity": "1",
+            "boxShadow": "none",
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-common-white_states-main)",
+              "border": "1px solid var(--mui-palette-common-white_states-main)",
+              "background": "none",
+              "& .MuiTouchRipple-root": {
+                "width": "91px",
+                "height": "42px",
+                "background": "var(--mui-palette-common-white_states-focusVisible)",
+                "padding": "0",
+                "opacity": "1",
+                "borderRadius": "0",
+                "boxShadow": "none"
+              }
+            },
+            "&:not(.Mui-disabled).Mui-focusVisible:not(:hover)": {
+              "color": "var(--mui-palette-common-white_states-main)",
+              "border": "1px solid var(--mui-palette-common-white_states-main)",
+              "background": "none"
+            },
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):hover": {
+              "color": "var(--mui-palette-common-white_states-main)",
+              "border": "1px solid var(--mui-palette-common-white_states-main)",
+              "background": "var(--mui-palette-action-hover)"
+            },
+            "&.Mui-disabled:not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-action-disabled)",
+              "border": "1px solid var(--mui-palette-action-disabledBackground)",
+              "background": "none"
+            }
+          },
+          "&.MuiButton-sizeLarge.MuiButton-outlinedSecondary": {
+            "fontFeatureSettings": "'liga' off, 'clig' off",
+            "fontFamily": "\"IBM Plex Sans\", Helvetica, Arial, sans-serif",
+            "fontSize": "0.9375rem",
+            "fontStyle": "normal",
+            "fontWeight": "500",
+            "lineHeight": "26px /* 173.333% */",
+            "letterSpacing": "0.46px",
+            "textTransform": "uppercase",
+            "padding": "8px 22px",
+            "borderRadius": "var(--mui-shape-borderRadiusS)",
+            "opacity": "1",
+            "boxShadow": "none",
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-secondary-main)",
+              "border": "1px solid var(--mui-palette-secondary-_states-outlinedBorder)",
+              "background": "none",
+              "& .MuiTouchRipple-root": {
+                "width": "91px",
+                "height": "42px",
+                "background": "var(--mui-palette-secondary-_states-focusVisible)",
+                "padding": "0",
+                "opacity": "1",
+                "borderRadius": "0",
+                "boxShadow": "none"
+              }
+            },
+            "&:not(.Mui-disabled).Mui-focusVisible:not(:hover)": {
+              "color": "var(--mui-palette-secondary-main)",
+              "border": "1px solid var(--mui-palette-secondary-_states-outlinedBorder)",
+              "background": "none"
+            },
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):hover": {
+              "color": "var(--mui-palette-secondary-main)",
+              "border": "1px solid var(--mui-palette-secondary-_states-outlinedBorder)",
+              "background": "var(--mui-palette-secondary-_states-hover)"
+            },
+            "&.Mui-disabled:not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-action-disabled)",
+              "border": "1px solid var(--mui-palette-action-disabledBackground)",
+              "background": "none"
+            }
+          },
+          "&.MuiButton-sizeLarge.MuiButton-outlinedError": {
+            "fontFeatureSettings": "'liga' off, 'clig' off",
+            "fontFamily": "\"IBM Plex Sans\", Helvetica, Arial, sans-serif",
+            "fontSize": "0.9375rem",
+            "fontStyle": "normal",
+            "fontWeight": "500",
+            "lineHeight": "26px /* 173.333% */",
+            "letterSpacing": "0.46px",
+            "textTransform": "uppercase",
+            "padding": "8px 22px",
+            "borderRadius": "var(--mui-shape-borderRadiusS)",
+            "opacity": "1",
+            "boxShadow": "none",
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-error-main)",
+              "border": "1px solid var(--mui-palette-error-_states-outlinedBorder)",
+              "background": "none",
+              "& .MuiTouchRipple-root": {
+                "width": "91px",
+                "height": "42px",
+                "background": "var(--mui-palette-error-_states-focusVisible)",
+                "padding": "0",
+                "opacity": "1",
+                "borderRadius": "0",
+                "boxShadow": "none"
+              }
+            },
+            "&:not(.Mui-disabled).Mui-focusVisible:not(:hover)": {
+              "color": "var(--mui-palette-error-main)",
+              "border": "1px solid var(--mui-palette-error-_states-outlinedBorder)",
+              "background": "none"
+            },
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):hover": {
+              "color": "var(--mui-palette-error-main)",
+              "border": "1px solid var(--mui-palette-error-_states-outlinedBorder)",
+              "background": "var(--mui-palette-error-_states-hover)"
+            },
+            "&.Mui-disabled:not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-action-disabled)",
+              "border": "1px solid var(--mui-palette-action-disabledBackground)",
+              "background": "none"
+            }
+          },
+          "&.MuiButton-sizeLarge.MuiButton-outlinedWarning": {
+            "fontFeatureSettings": "'liga' off, 'clig' off",
+            "fontFamily": "\"IBM Plex Sans\", Helvetica, Arial, sans-serif",
+            "fontSize": "0.9375rem",
+            "fontStyle": "normal",
+            "fontWeight": "500",
+            "lineHeight": "26px /* 173.333% */",
+            "letterSpacing": "0.46px",
+            "textTransform": "uppercase",
+            "padding": "8px 22px",
+            "borderRadius": "var(--mui-shape-borderRadiusS)",
+            "opacity": "1",
+            "boxShadow": "none",
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-warning-main)",
+              "border": "1px solid var(--mui-palette-warning-_states-outlinedBorder)",
+              "background": "none",
+              "& .MuiTouchRipple-root": {
+                "width": "91px",
+                "height": "42px",
+                "background": "var(--mui-palette-warning-_states-focusVisible)",
+                "padding": "0",
+                "opacity": "1",
+                "borderRadius": "0",
+                "boxShadow": "none"
+              }
+            },
+            "&:not(.Mui-disabled).Mui-focusVisible:not(:hover)": {
+              "color": "var(--mui-palette-warning-main)",
+              "border": "1px solid var(--mui-palette-warning-_states-outlinedBorder)",
+              "background": "none"
+            },
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):hover": {
+              "color": "var(--mui-palette-warning-main)",
+              "border": "1px solid var(--mui-palette-warning-_states-outlinedBorder)",
+              "background": "var(--mui-palette-warning-_states-hover)"
+            },
+            "&.Mui-disabled:not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-action-disabled)",
+              "border": "1px solid var(--mui-palette-action-disabledBackground)",
+              "background": "none"
+            }
+          },
+          "&.MuiButton-sizeLarge.MuiButton-outlinedInfo": {
+            "fontFeatureSettings": "'liga' off, 'clig' off",
+            "fontFamily": "\"IBM Plex Sans\", Helvetica, Arial, sans-serif",
+            "fontSize": "0.9375rem",
+            "fontStyle": "normal",
+            "fontWeight": "500",
+            "lineHeight": "26px /* 173.333% */",
+            "letterSpacing": "0.46px",
+            "textTransform": "uppercase",
+            "padding": "8px 22px",
+            "borderRadius": "var(--mui-shape-borderRadiusS)",
+            "opacity": "1",
+            "boxShadow": "none",
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-info-main)",
+              "border": "1px solid var(--mui-palette-info-_states-outlinedBorder)",
+              "background": "none",
+              "& .MuiTouchRipple-root": {
+                "width": "91px",
+                "height": "42px",
+                "background": "var(--mui-palette-primary-_states-focusVisible)",
+                "padding": "0",
+                "opacity": "1",
+                "borderRadius": "0",
+                "boxShadow": "none"
+              }
+            },
+            "&:not(.Mui-disabled).Mui-focusVisible:not(:hover)": {
+              "color": "var(--mui-palette-info-main)",
+              "border": "1px solid var(--mui-palette-info-_states-outlinedBorder)",
+              "background": "none"
+            },
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):hover": {
+              "color": "var(--mui-palette-info-main)",
+              "border": "1px solid var(--mui-palette-info-_states-outlinedBorder)",
+              "background": "var(--mui-palette-info-_states-hover)"
+            },
+            "&.Mui-disabled:not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-action-disabled)",
+              "border": "1px solid var(--mui-palette-action-disabledBackground)",
+              "background": "none"
+            }
+          },
+          "&.MuiButton-sizeLarge.MuiButton-outlinedSuccess": {
+            "fontFeatureSettings": "'liga' off, 'clig' off",
+            "fontFamily": "\"IBM Plex Sans\", Helvetica, Arial, sans-serif",
+            "fontSize": "0.9375rem",
+            "fontStyle": "normal",
+            "fontWeight": "500",
+            "lineHeight": "26px /* 173.333% */",
+            "letterSpacing": "0.46px",
+            "textTransform": "uppercase",
+            "padding": "8px 22px",
+            "borderRadius": "var(--mui-shape-borderRadiusS)",
+            "opacity": "1",
+            "boxShadow": "none",
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-success-main)",
+              "border": "1px solid var(--mui-palette-success-_states-outlinedBorder)",
+              "background": "none",
+              "& .MuiTouchRipple-root": {
+                "width": "91px",
+                "height": "42px",
+                "background": "var(--mui-palette-success-_states-focusVisible)",
+                "padding": "0",
+                "opacity": "1",
+                "borderRadius": "0",
+                "boxShadow": "none"
+              }
+            },
+            "&:not(.Mui-disabled).Mui-focusVisible:not(:hover)": {
+              "color": "var(--mui-palette-success-main)",
+              "border": "1px solid var(--mui-palette-success-_states-outlinedBorder)",
+              "background": "none"
+            },
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):hover": {
+              "color": "var(--mui-palette-success-main)",
+              "border": "1px solid var(--mui-palette-success-_states-outlinedBorder)",
+              "background": "var(--mui-palette-success-_states-hover)"
+            },
+            "&.Mui-disabled:not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-action-disabled)",
+              "border": "1px solid var(--mui-palette-action-disabledBackground)",
+              "background": "none"
+            }
+          },
+          "&.MuiButton-sizeMedium.MuiButton-outlinedPrimary": {
+            "fontFamily": "\"IBM Plex Sans\", Helvetica, Arial, sans-serif",
+            "fontSize": "0.875rem",
+            "fontStyle": "normal",
+            "fontWeight": "500",
+            "lineHeight": "24px /* 171.429% */",
+            "letterSpacing": "0.4px",
+            "textTransform": "uppercase",
+            "padding": "6px 16px",
+            "borderRadius": "var(--mui-shape-borderRadiusS)",
+            "opacity": "1",
+            "boxShadow": "none",
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-primary-main)",
+              "border": "1px solid var(--mui-palette-primary-_states-outlinedBorder)",
+              "background": "none",
+              "& .MuiTouchRipple-root": {
+                "width": "75px",
+                "height": "36px",
+                "background": "var(--mui-palette-primary-_states-focusVisible)",
+                "padding": "0",
+                "opacity": "1",
+                "borderRadius": "0",
+                "boxShadow": "none"
+              }
+            },
+            "&:not(.Mui-disabled).Mui-focusVisible:not(:hover)": {
+              "color": "var(--mui-palette-primary-main)",
+              "border": "1px solid var(--mui-palette-primary-_states-outlinedBorder)",
+              "background": "none"
+            },
+            "&.Mui-disabled:not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-action-disabled)",
+              "border": "1px solid var(--mui-palette-action-disabledBackground)",
+              "background": "none"
+            },
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):hover": {
+              "color": "var(--mui-palette-primary-main)",
+              "border": "1px solid var(--mui-palette-primary-_states-outlinedBorder)",
+              "background": "var(--mui-palette-primary-_states-hover)"
+            }
+          },
+          "&.MuiButton-sizeMedium.MuiButton-outlinedInherit": {
+            "fontFamily": "\"IBM Plex Sans\", Helvetica, Arial, sans-serif",
+            "fontSize": "0.875rem",
+            "fontStyle": "normal",
+            "fontWeight": "500",
+            "lineHeight": "24px /* 171.429% */",
+            "letterSpacing": "0.4px",
+            "textTransform": "uppercase",
+            "padding": "6px 16px",
+            "borderRadius": "var(--mui-shape-borderRadiusS)",
+            "opacity": "1",
+            "boxShadow": "none",
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-text-primary)",
+              "border": "1px solid var(--mui-palette-text-primary)",
+              "background": "none",
+              "& .MuiTouchRipple-root": {
+                "width": "75px",
+                "height": "36px",
+                "background": "var(--mui-palette-text-_states-focusVisible)",
+                "padding": "0",
+                "opacity": "1",
+                "borderRadius": "0",
+                "boxShadow": "none"
+              }
+            },
+            "&:not(.Mui-disabled).Mui-focusVisible:not(:hover)": {
+              "color": "var(--mui-palette-text-primary)",
+              "border": "1px solid var(--mui-palette-text-primary)",
+              "background": "none"
+            },
+            "&.Mui-disabled:not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-action-disabled)",
+              "border": "1px solid var(--mui-palette-action-disabledBackground)",
+              "background": "none"
+            },
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):hover": {
+              "color": "var(--mui-palette-text-primary)",
+              "border": "1px solid var(--mui-palette-text-primary)",
+              "background": "var(--mui-palette-action-hover)"
+            }
+          },
+          "&.MuiButton-sizeMedium.MuiButton-outlinedInherit (white)": {
+            "fontFamily": "\"IBM Plex Sans\", Helvetica, Arial, sans-serif",
+            "fontSize": "0.875rem",
+            "fontStyle": "normal",
+            "fontWeight": "500",
+            "lineHeight": "24px /* 171.429% */",
+            "letterSpacing": "0.4px",
+            "textTransform": "uppercase",
+            "padding": "6px 16px",
+            "borderRadius": "var(--mui-shape-borderRadiusS)",
+            "opacity": "1",
+            "boxShadow": "none",
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-common-white_states-main)",
+              "border": "1px solid var(--mui-palette-common-white_states-main)",
+              "background": "none",
+              "& .MuiTouchRipple-root": {
+                "width": "75px",
+                "height": "36px",
+                "background": "var(--mui-palette-common-white_states-focusVisible)",
+                "padding": "0",
+                "opacity": "1",
+                "borderRadius": "0",
+                "boxShadow": "none"
+              }
+            },
+            "&:not(.Mui-disabled).Mui-focusVisible:not(:hover)": {
+              "color": "var(--mui-palette-common-white_states-main)",
+              "border": "1px solid var(--mui-palette-common-white_states-main)",
+              "background": "none"
+            },
+            "&.Mui-disabled:not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-action-disabled)",
+              "border": "1px solid var(--mui-palette-action-disabledBackground)",
+              "background": "none"
+            },
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):hover": {
+              "color": "var(--mui-palette-common-white_states-main)",
+              "border": "1px solid var(--mui-palette-common-white_states-main)",
+              "background": "var(--mui-palette-action-hover)"
+            }
+          },
+          "&.MuiButton-sizeMedium.MuiButton-outlinedSecondary": {
+            "fontFamily": "\"IBM Plex Sans\", Helvetica, Arial, sans-serif",
+            "fontSize": "0.875rem",
+            "fontStyle": "normal",
+            "fontWeight": "500",
+            "lineHeight": "24px /* 171.429% */",
+            "letterSpacing": "0.4px",
+            "textTransform": "uppercase",
+            "padding": "6px 16px",
+            "borderRadius": "var(--mui-shape-borderRadiusS)",
+            "opacity": "1",
+            "boxShadow": "none",
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-secondary-main)",
+              "border": "1px solid var(--mui-palette-secondary-_states-outlinedBorder)",
+              "background": "none",
+              "& .MuiTouchRipple-root": {
+                "width": "75px",
+                "height": "36px",
+                "background": "var(--mui-palette-secondary-_states-focusVisible)",
+                "padding": "0",
+                "opacity": "1",
+                "borderRadius": "0",
+                "boxShadow": "none"
+              }
+            },
+            "&:not(.Mui-disabled).Mui-focusVisible:not(:hover)": {
+              "color": "var(--mui-palette-secondary-main)",
+              "border": "1px solid var(--mui-palette-secondary-_states-outlinedBorder)",
+              "background": "none"
+            },
+            "&.Mui-disabled:not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-action-disabled)",
+              "border": "1px solid var(--mui-palette-action-disabledBackground)",
+              "background": "none"
+            },
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):hover": {
+              "color": "var(--mui-palette-secondary-main)",
+              "border": "1px solid var(--mui-palette-secondary-_states-outlinedBorder)",
+              "background": "var(--mui-palette-secondary-_states-hover)"
+            }
+          },
+          "&.MuiButton-sizeMedium.MuiButton-outlinedError": {
+            "fontFamily": "\"IBM Plex Sans\", Helvetica, Arial, sans-serif",
+            "fontSize": "0.875rem",
+            "fontStyle": "normal",
+            "fontWeight": "500",
+            "lineHeight": "24px /* 171.429% */",
+            "letterSpacing": "0.4px",
+            "textTransform": "uppercase",
+            "padding": "6px 16px",
+            "borderRadius": "var(--mui-shape-borderRadiusS)",
+            "opacity": "1",
+            "boxShadow": "none",
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-error-main)",
+              "border": "1px solid var(--mui-palette-error-_states-outlinedBorder)",
+              "background": "none",
+              "& .MuiTouchRipple-root": {
+                "width": "75px",
+                "height": "36px",
+                "background": "var(--mui-palette-error-_states-focusVisible)",
+                "padding": "0",
+                "opacity": "1",
+                "borderRadius": "0",
+                "boxShadow": "none"
+              }
+            },
+            "&:not(.Mui-disabled).Mui-focusVisible:not(:hover)": {
+              "color": "var(--mui-palette-error-main)",
+              "border": "1px solid var(--mui-palette-error-_states-outlinedBorder)",
+              "background": "none"
+            },
+            "&.Mui-disabled:not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-action-disabled)",
+              "border": "1px solid var(--mui-palette-action-disabledBackground)",
+              "background": "none"
+            },
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):hover": {
+              "color": "var(--mui-palette-error-main)",
+              "border": "1px solid var(--mui-palette-error-_states-outlinedBorder)",
+              "background": "var(--mui-palette-error-_states-hover)"
+            }
+          },
+          "&.MuiButton-sizeMedium.MuiButton-outlinedWarning": {
+            "fontFamily": "\"IBM Plex Sans\", Helvetica, Arial, sans-serif",
+            "fontSize": "0.875rem",
+            "fontStyle": "normal",
+            "fontWeight": "500",
+            "lineHeight": "24px /* 171.429% */",
+            "letterSpacing": "0.4px",
+            "textTransform": "uppercase",
+            "padding": "6px 16px",
+            "borderRadius": "var(--mui-shape-borderRadiusS)",
+            "opacity": "1",
+            "boxShadow": "none",
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-warning-main)",
+              "border": "1px solid var(--mui-palette-warning-_states-outlinedBorder)",
+              "background": "none",
+              "& .MuiTouchRipple-root": {
+                "width": "75px",
+                "height": "36px",
+                "background": "var(--mui-palette-warning-_states-focusVisible)",
+                "padding": "0",
+                "opacity": "1",
+                "borderRadius": "0",
+                "boxShadow": "none"
+              }
+            },
+            "&:not(.Mui-disabled).Mui-focusVisible:not(:hover)": {
+              "color": "var(--mui-palette-warning-main)",
+              "border": "1px solid var(--mui-palette-warning-_states-outlinedBorder)",
+              "background": "none"
+            },
+            "&.Mui-disabled:not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-action-disabled)",
+              "border": "1px solid var(--mui-palette-action-disabledBackground)",
+              "background": "none"
+            },
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):hover": {
+              "color": "var(--mui-palette-warning-main)",
+              "border": "1px solid var(--mui-palette-warning-_states-outlinedBorder)",
+              "background": "var(--mui-palette-warning-_states-hover)"
+            }
+          },
+          "&.MuiButton-sizeMedium.MuiButton-outlinedInfo": {
+            "fontFamily": "\"IBM Plex Sans\", Helvetica, Arial, sans-serif",
+            "fontSize": "0.875rem",
+            "fontStyle": "normal",
+            "fontWeight": "500",
+            "lineHeight": "24px /* 171.429% */",
+            "letterSpacing": "0.4px",
+            "textTransform": "uppercase",
+            "padding": "6px 16px",
+            "borderRadius": "var(--mui-shape-borderRadiusS)",
+            "opacity": "1",
+            "boxShadow": "none",
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-info-main)",
+              "border": "1px solid var(--mui-palette-info-_states-outlinedBorder)",
+              "background": "none",
+              "& .MuiTouchRipple-root": {
+                "width": "75px",
+                "height": "36px",
+                "background": "var(--mui-palette-primary-_states-focusVisible)",
+                "padding": "0",
+                "opacity": "1",
+                "borderRadius": "0",
+                "boxShadow": "none"
+              }
+            },
+            "&:not(.Mui-disabled).Mui-focusVisible:not(:hover)": {
+              "color": "var(--mui-palette-info-main)",
+              "border": "1px solid var(--mui-palette-info-_states-outlinedBorder)",
+              "background": "none"
+            },
+            "&.Mui-disabled:not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-action-disabled)",
+              "border": "1px solid var(--mui-palette-action-disabledBackground)",
+              "background": "none"
+            },
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):hover": {
+              "color": "var(--mui-palette-info-main)",
+              "border": "1px solid var(--mui-palette-info-_states-outlinedBorder)",
+              "background": "var(--mui-palette-info-_states-hover)"
+            }
+          },
+          "&.MuiButton-sizeMedium.MuiButton-outlinedSuccess": {
+            "fontFamily": "\"IBM Plex Sans\", Helvetica, Arial, sans-serif",
+            "fontSize": "0.875rem",
+            "fontStyle": "normal",
+            "fontWeight": "500",
+            "lineHeight": "24px /* 171.429% */",
+            "letterSpacing": "0.4px",
+            "textTransform": "uppercase",
+            "padding": "6px 16px",
+            "borderRadius": "var(--mui-shape-borderRadiusS)",
+            "opacity": "1",
+            "boxShadow": "none",
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-success-main)",
+              "border": "1px solid var(--mui-palette-success-_states-outlinedBorder)",
+              "background": "none",
+              "& .MuiTouchRipple-root": {
+                "width": "75px",
+                "height": "36px",
+                "background": "var(--mui-palette-success-_states-focusVisible)",
+                "padding": "0",
+                "opacity": "1",
+                "borderRadius": "0",
+                "boxShadow": "none"
+              }
+            },
+            "&:not(.Mui-disabled).Mui-focusVisible:not(:hover)": {
+              "color": "var(--mui-palette-success-main)",
+              "border": "1px solid var(--mui-palette-success-_states-outlinedBorder)",
+              "background": "none"
+            },
+            "&.Mui-disabled:not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-action-disabled)",
+              "border": "1px solid var(--mui-palette-action-disabledBackground)",
+              "background": "none"
+            },
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):hover": {
+              "color": "var(--mui-palette-success-main)",
+              "border": "1px solid var(--mui-palette-success-_states-outlinedBorder)",
+              "background": "var(--mui-palette-success-_states-hover)"
+            }
+          },
+          "&.MuiButton-sizeSmall.MuiButton-outlinedPrimary": {
+            "fontFamily": "\"IBM Plex Sans\", Helvetica, Arial, sans-serif",
+            "fontSize": "0.8125rem",
+            "fontStyle": "normal",
+            "fontWeight": "500",
+            "lineHeight": "22px /* 169.231% */",
+            "letterSpacing": "0.46px",
+            "textTransform": "uppercase",
+            "padding": "4px 10px",
+            "borderRadius": "var(--mui-shape-borderRadiusS)",
+            "opacity": "1",
+            "boxShadow": "none",
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-primary-main)",
+              "border": "1px solid var(--mui-palette-primary-_states-outlinedBorder)",
+              "background": "none",
+              "& .MuiTouchRipple-root": {
+                "width": "61px",
+                "height": "30px",
+                "background": "var(--mui-palette-primary-_states-focusVisible)",
+                "padding": "0",
+                "opacity": "1",
+                "borderRadius": "0",
+                "boxShadow": "none"
+              }
+            },
+            "&:not(.Mui-disabled).Mui-focusVisible:not(:hover)": {
+              "color": "var(--mui-palette-primary-main)",
+              "border": "1px solid var(--mui-palette-primary-_states-outlinedBorder)",
+              "background": "none"
+            },
+            "&.Mui-disabled:not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-action-disabled)",
+              "border": "1px solid var(--mui-palette-action-disabledBackground)",
+              "background": "none"
+            },
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):hover": {
+              "color": "var(--mui-palette-primary-main)",
+              "border": "1px solid var(--mui-palette-primary-_states-outlinedBorder)",
+              "background": "var(--mui-palette-primary-_states-hover)"
+            }
+          },
+          "&.MuiButton-sizeSmall.MuiButton-outlinedInherit": {
+            "fontFamily": "\"IBM Plex Sans\", Helvetica, Arial, sans-serif",
+            "fontSize": "0.8125rem",
+            "fontStyle": "normal",
+            "fontWeight": "500",
+            "lineHeight": "22px /* 169.231% */",
+            "letterSpacing": "0.46px",
+            "textTransform": "uppercase",
+            "padding": "4px 10px",
+            "borderRadius": "var(--mui-shape-borderRadiusS)",
+            "opacity": "1",
+            "boxShadow": "none",
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-text-primary)",
+              "border": "1px solid var(--mui-palette-text-primary)",
+              "background": "none",
+              "& .MuiTouchRipple-root": {
+                "width": "61px",
+                "height": "30px",
+                "background": "var(--mui-palette-text-_states-focusVisible)",
+                "padding": "0",
+                "opacity": "1",
+                "borderRadius": "0",
+                "boxShadow": "none"
+              }
+            },
+            "&:not(.Mui-disabled).Mui-focusVisible:not(:hover)": {
+              "color": "var(--mui-palette-text-primary)",
+              "border": "1px solid var(--mui-palette-text-primary)",
+              "background": "none"
+            },
+            "&.Mui-disabled:not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-action-disabled)",
+              "border": "1px solid var(--mui-palette-action-disabledBackground)",
+              "background": "none"
+            },
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):hover": {
+              "color": "var(--mui-palette-text-primary)",
+              "border": "1px solid var(--mui-palette-text-primary)",
+              "background": "var(--mui-palette-action-hover)"
+            }
+          },
+          "&.MuiButton-sizeSmall.MuiButton-outlinedInherit (white)": {
+            "fontFamily": "\"IBM Plex Sans\", Helvetica, Arial, sans-serif",
+            "fontSize": "0.8125rem",
+            "fontStyle": "normal",
+            "fontWeight": "500",
+            "lineHeight": "22px /* 169.231% */",
+            "letterSpacing": "0.46px",
+            "textTransform": "uppercase",
+            "padding": "4px 10px",
+            "borderRadius": "var(--mui-shape-borderRadiusS)",
+            "opacity": "1",
+            "boxShadow": "none",
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-common-white_states-main)",
+              "border": "1px solid var(--mui-palette-common-white_states-main)",
+              "background": "none",
+              "& .MuiTouchRipple-root": {
+                "width": "61px",
+                "height": "30px",
+                "background": "var(--mui-palette-common-white_states-focusVisible)",
+                "padding": "0",
+                "opacity": "1",
+                "borderRadius": "0",
+                "boxShadow": "none"
+              }
+            },
+            "&:not(.Mui-disabled).Mui-focusVisible:not(:hover)": {
+              "color": "var(--mui-palette-common-white_states-main)",
+              "border": "1px solid var(--mui-palette-common-white_states-main)",
+              "background": "none"
+            },
+            "&.Mui-disabled:not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-action-disabled)",
+              "border": "1px solid var(--mui-palette-action-disabledBackground)",
+              "background": "none"
+            },
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):hover": {
+              "color": "var(--mui-palette-common-white_states-main)",
+              "border": "1px solid var(--mui-palette-common-white_states-main)",
+              "background": "var(--mui-palette-action-hover)"
+            }
+          },
+          "&.MuiButton-sizeSmall.MuiButton-outlinedSecondary": {
+            "fontFamily": "\"IBM Plex Sans\", Helvetica, Arial, sans-serif",
+            "fontSize": "0.8125rem",
+            "fontStyle": "normal",
+            "fontWeight": "500",
+            "lineHeight": "22px /* 169.231% */",
+            "letterSpacing": "0.46px",
+            "textTransform": "uppercase",
+            "padding": "4px 10px",
+            "borderRadius": "var(--mui-shape-borderRadiusS)",
+            "opacity": "1",
+            "boxShadow": "none",
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-secondary-main)",
+              "border": "1px solid var(--mui-palette-secondary-_states-outlinedBorder)",
+              "background": "none",
+              "& .MuiTouchRipple-root": {
+                "width": "61px",
+                "height": "30px",
+                "background": "var(--mui-palette-secondary-_states-focusVisible)",
+                "padding": "0",
+                "opacity": "1",
+                "borderRadius": "0",
+                "boxShadow": "none"
+              }
+            },
+            "&:not(.Mui-disabled).Mui-focusVisible:not(:hover)": {
+              "color": "var(--mui-palette-secondary-main)",
+              "border": "1px solid var(--mui-palette-secondary-_states-outlinedBorder)",
+              "background": "none"
+            },
+            "&.Mui-disabled:not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-action-disabled)",
+              "border": "1px solid var(--mui-palette-action-disabledBackground)",
+              "background": "none"
+            },
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):hover": {
+              "color": "var(--mui-palette-secondary-main)",
+              "border": "1px solid var(--mui-palette-secondary-_states-outlinedBorder)",
+              "background": "var(--mui-palette-secondary-_states-hover)"
+            }
+          },
+          "&.MuiButton-sizeSmall.MuiButton-outlinedError": {
+            "fontFamily": "\"IBM Plex Sans\", Helvetica, Arial, sans-serif",
+            "fontSize": "0.8125rem",
+            "fontStyle": "normal",
+            "fontWeight": "500",
+            "lineHeight": "22px /* 169.231% */",
+            "letterSpacing": "0.46px",
+            "textTransform": "uppercase",
+            "padding": "4px 10px",
+            "borderRadius": "var(--mui-shape-borderRadiusS)",
+            "opacity": "1",
+            "boxShadow": "none",
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-error-main)",
+              "border": "1px solid var(--mui-palette-error-_states-outlinedBorder)",
+              "background": "none",
+              "& .MuiTouchRipple-root": {
+                "width": "61px",
+                "height": "30px",
+                "background": "var(--mui-palette-error-_states-focusVisible)",
+                "padding": "0",
+                "opacity": "1",
+                "borderRadius": "0",
+                "boxShadow": "none"
+              }
+            },
+            "&:not(.Mui-disabled).Mui-focusVisible:not(:hover)": {
+              "color": "var(--mui-palette-error-main)",
+              "border": "1px solid var(--mui-palette-error-_states-outlinedBorder)",
+              "background": "none"
+            },
+            "&.Mui-disabled:not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-action-disabled)",
+              "border": "1px solid var(--mui-palette-action-disabledBackground)",
+              "background": "none"
+            },
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):hover": {
+              "color": "var(--mui-palette-error-main)",
+              "border": "1px solid var(--mui-palette-error-_states-outlinedBorder)",
+              "background": "var(--mui-palette-error-_states-hover)"
+            }
+          },
+          "&.MuiButton-sizeSmall.MuiButton-outlinedWarning": {
+            "fontFamily": "\"IBM Plex Sans\", Helvetica, Arial, sans-serif",
+            "fontSize": "0.8125rem",
+            "fontStyle": "normal",
+            "fontWeight": "500",
+            "lineHeight": "22px /* 169.231% */",
+            "letterSpacing": "0.46px",
+            "textTransform": "uppercase",
+            "padding": "4px 10px",
+            "borderRadius": "var(--mui-shape-borderRadiusS)",
+            "opacity": "1",
+            "boxShadow": "none",
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-warning-main)",
+              "border": "1px solid var(--mui-palette-warning-_states-outlinedBorder)",
+              "background": "none",
+              "& .MuiTouchRipple-root": {
+                "width": "61px",
+                "height": "30px",
+                "background": "var(--mui-palette-warning-_states-focusVisible)",
+                "padding": "0",
+                "opacity": "1",
+                "borderRadius": "0",
+                "boxShadow": "none"
+              }
+            },
+            "&:not(.Mui-disabled).Mui-focusVisible:not(:hover)": {
+              "color": "var(--mui-palette-warning-main)",
+              "border": "1px solid var(--mui-palette-warning-_states-outlinedBorder)",
+              "background": "none"
+            },
+            "&.Mui-disabled:not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-action-disabled)",
+              "border": "1px solid var(--mui-palette-action-disabledBackground)",
+              "background": "none"
+            },
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):hover": {
+              "color": "var(--mui-palette-warning-main)",
+              "border": "1px solid var(--mui-palette-warning-_states-outlinedBorder)",
+              "background": "var(--mui-palette-warning-_states-hover)"
+            }
+          },
+          "&.MuiButton-sizeSmall.MuiButton-outlinedInfo": {
+            "fontFamily": "\"IBM Plex Sans\", Helvetica, Arial, sans-serif",
+            "fontSize": "0.8125rem",
+            "fontStyle": "normal",
+            "fontWeight": "500",
+            "lineHeight": "22px /* 169.231% */",
+            "letterSpacing": "0.46px",
+            "textTransform": "uppercase",
+            "padding": "4px 10px",
+            "borderRadius": "var(--mui-shape-borderRadiusS)",
+            "opacity": "1",
+            "boxShadow": "none",
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-info-main)",
+              "border": "1px solid var(--mui-palette-info-_states-outlinedBorder)",
+              "background": "none",
+              "& .MuiTouchRipple-root": {
+                "width": "61px",
+                "height": "30px",
+                "background": "var(--mui-palette-primary-_states-focusVisible)",
+                "padding": "0",
+                "opacity": "1",
+                "borderRadius": "0",
+                "boxShadow": "none"
+              }
+            },
+            "&:not(.Mui-disabled).Mui-focusVisible:not(:hover)": {
+              "color": "var(--mui-palette-info-main)",
+              "border": "1px solid var(--mui-palette-info-_states-outlinedBorder)",
+              "background": "none"
+            },
+            "&.Mui-disabled:not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-action-disabled)",
+              "border": "1px solid var(--mui-palette-action-disabledBackground)",
+              "background": "none"
+            },
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):hover": {
+              "color": "var(--mui-palette-info-main)",
+              "border": "1px solid var(--mui-palette-info-_states-outlinedBorder)",
+              "background": "var(--mui-palette-info-_states-hover)"
+            }
+          },
+          "&.MuiButton-sizeSmall.MuiButton-outlinedSuccess": {
+            "fontFamily": "\"IBM Plex Sans\", Helvetica, Arial, sans-serif",
+            "fontSize": "0.8125rem",
+            "fontStyle": "normal",
+            "fontWeight": "500",
+            "lineHeight": "22px /* 169.231% */",
+            "letterSpacing": "0.46px",
+            "textTransform": "uppercase",
+            "padding": "4px 10px",
+            "borderRadius": "var(--mui-shape-borderRadiusS)",
+            "opacity": "1",
+            "boxShadow": "none",
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-success-main)",
+              "border": "1px solid var(--mui-palette-success-_states-outlinedBorder)",
+              "background": "none",
+              "& .MuiTouchRipple-root": {
+                "width": "61px",
+                "height": "30px",
+                "background": "var(--mui-palette-success-_states-focusVisible)",
+                "padding": "0",
+                "opacity": "1",
+                "borderRadius": "0",
+                "boxShadow": "none"
+              }
+            },
+            "&:not(.Mui-disabled).Mui-focusVisible:not(:hover)": {
+              "color": "var(--mui-palette-success-main)",
+              "border": "1px solid var(--mui-palette-success-_states-outlinedBorder)",
+              "background": "none"
+            },
+            "&.Mui-disabled:not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-action-disabled)",
+              "border": "1px solid var(--mui-palette-action-disabledBackground)",
+              "background": "none"
+            },
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):hover": {
+              "color": "var(--mui-palette-success-main)",
+              "border": "1px solid var(--mui-palette-success-_states-outlinedBorder)",
+              "background": "var(--mui-palette-success-_states-hover)"
+            }
+          },
+          "&.MuiButton-sizeMedium.MuiButton-textPrimary": {
+            "fontFamily": "\"IBM Plex Sans\", Helvetica, Arial, sans-serif",
+            "fontSize": "0.875rem",
+            "fontStyle": "normal",
+            "fontWeight": "500",
+            "lineHeight": "24px /* 171.429% */",
+            "letterSpacing": "0.4px",
+            "textTransform": "uppercase",
+            "padding": "6px 8px",
+            "borderRadius": "var(--mui-shape-borderRadiusS)",
+            "opacity": "1",
+            "boxShadow": "none",
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-primary-main)",
+              "background": "none",
+              "& .MuiTouchRipple-root": {
+                "width": "59px",
+                "height": "36px",
+                "background": "var(--mui-palette-primary-_states-focusVisible)",
+                "padding": "0",
+                "opacity": "1",
+                "borderRadius": "0",
+                "boxShadow": "none"
+              }
+            },
+            "&:not(.Mui-disabled).Mui-focusVisible:not(:hover)": {
+              "color": "var(--mui-palette-primary-main)",
+              "background": "none"
+            },
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):hover": {
+              "color": "var(--mui-palette-primary-main)",
+              "background": "var(--mui-palette-primary-_states-hover)"
+            },
+            "&.Mui-disabled:not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-action-disabled)",
+              "border": "0px solid var(--mui-palette-action-disabledBackground)",
+              "background": "none"
+            }
+          },
+          "&.MuiButton-sizeMedium.MuiButton-textInherit": {
+            "fontFamily": "\"IBM Plex Sans\", Helvetica, Arial, sans-serif",
+            "fontSize": "0.875rem",
+            "fontStyle": "normal",
+            "fontWeight": "500",
+            "lineHeight": "24px /* 171.429% */",
+            "letterSpacing": "0.4px",
+            "textTransform": "uppercase",
+            "padding": "6px 8px",
+            "borderRadius": "var(--mui-shape-borderRadiusS)",
+            "opacity": "1",
+            "boxShadow": "none",
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-text-primary)",
+              "background": "none",
+              "& .MuiTouchRipple-root": {
+                "width": "59px",
+                "height": "36px",
+                "background": "var(--mui-palette-text-_states-focusVisible)",
+                "padding": "0",
+                "opacity": "1",
+                "borderRadius": "0",
+                "boxShadow": "none"
+              }
+            },
+            "&:not(.Mui-disabled).Mui-focusVisible:not(:hover)": {
+              "color": "var(--mui-palette-text-primary)",
+              "background": "none"
+            },
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):hover": {
+              "color": "var(--mui-palette-text-primary)",
+              "background": "var(--mui-palette-action-hover)"
+            },
+            "&.Mui-disabled:not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-action-disabled)",
+              "border": "0px solid var(--mui-palette-action-disabledBackground)",
+              "background": "none"
+            }
+          },
+          "&.MuiButton-sizeMedium.MuiButton-textInherit (white)": {
+            "fontFamily": "\"IBM Plex Sans\", Helvetica, Arial, sans-serif",
+            "fontSize": "0.875rem",
+            "fontStyle": "normal",
+            "fontWeight": "500",
+            "lineHeight": "24px /* 171.429% */",
+            "letterSpacing": "0.4px",
+            "textTransform": "uppercase",
+            "padding": "6px 8px",
+            "borderRadius": "var(--mui-shape-borderRadiusS)",
+            "opacity": "1",
+            "boxShadow": "none",
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-common-white_states-main)",
+              "background": "none",
+              "& .MuiTouchRipple-root": {
+                "width": "59px",
+                "height": "36px",
+                "background": "var(--mui-palette-common-white_states-focusVisible)",
+                "padding": "0",
+                "opacity": "1",
+                "borderRadius": "0",
+                "boxShadow": "none"
+              }
+            },
+            "&:not(.Mui-disabled).Mui-focusVisible:not(:hover)": {
+              "color": "var(--mui-palette-common-white_states-main)",
+              "background": "none"
+            },
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):hover": {
+              "color": "var(--mui-palette-common-white_states-main)",
+              "background": "var(--mui-palette-action-hover)"
+            },
+            "&.Mui-disabled:not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-action-disabled)",
+              "border": "0px solid var(--mui-palette-action-disabledBackground)",
+              "background": "none"
+            }
+          },
+          "&.MuiButton-sizeMedium.MuiButton-textSecondary": {
+            "fontFamily": "\"IBM Plex Sans\", Helvetica, Arial, sans-serif",
+            "fontSize": "0.875rem",
+            "fontStyle": "normal",
+            "fontWeight": "500",
+            "lineHeight": "24px /* 171.429% */",
+            "letterSpacing": "0.4px",
+            "textTransform": "uppercase",
+            "padding": "6px 8px",
+            "borderRadius": "var(--mui-shape-borderRadiusS)",
+            "opacity": "1",
+            "boxShadow": "none",
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-secondary-main)",
+              "background": "none",
+              "& .MuiTouchRipple-root": {
+                "width": "59px",
+                "height": "36px",
+                "background": "var(--mui-palette-secondary-_states-focusVisible)",
+                "padding": "0",
+                "opacity": "1",
+                "borderRadius": "0",
+                "boxShadow": "none"
+              }
+            },
+            "&:not(.Mui-disabled).Mui-focusVisible:not(:hover)": {
+              "color": "var(--mui-palette-secondary-main)",
+              "background": "none"
+            },
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):hover": {
+              "color": "var(--mui-palette-secondary-main)",
+              "background": "var(--mui-palette-secondary-_states-hover)"
+            },
+            "&.Mui-disabled:not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-action-disabled)",
+              "border": "0px solid var(--mui-palette-action-disabledBackground)",
+              "background": "none"
+            }
+          },
+          "&.MuiButton-sizeMedium.MuiButton-textError": {
+            "fontFamily": "\"IBM Plex Sans\", Helvetica, Arial, sans-serif",
+            "fontSize": "0.875rem",
+            "fontStyle": "normal",
+            "fontWeight": "500",
+            "lineHeight": "24px /* 171.429% */",
+            "letterSpacing": "0.4px",
+            "textTransform": "uppercase",
+            "padding": "6px 8px",
+            "borderRadius": "var(--mui-shape-borderRadiusS)",
+            "opacity": "1",
+            "boxShadow": "none",
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-error-main)",
+              "background": "none",
+              "& .MuiTouchRipple-root": {
+                "width": "59px",
+                "height": "36px",
+                "background": "var(--mui-palette-error-_states-focusVisible)",
+                "padding": "0",
+                "opacity": "1",
+                "borderRadius": "0",
+                "boxShadow": "none"
+              }
+            },
+            "&:not(.Mui-disabled).Mui-focusVisible:not(:hover)": {
+              "color": "var(--mui-palette-error-main)",
+              "background": "none"
+            },
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):hover": {
+              "color": "var(--mui-palette-error-main)",
+              "background": "var(--mui-palette-error-_states-hover)"
+            },
+            "&.Mui-disabled:not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-action-disabled)",
+              "border": "0px solid var(--mui-palette-action-disabledBackground)",
+              "background": "none"
+            }
+          },
+          "&.MuiButton-sizeMedium.MuiButton-textWarning": {
+            "fontFamily": "\"IBM Plex Sans\", Helvetica, Arial, sans-serif",
+            "fontSize": "0.875rem",
+            "fontStyle": "normal",
+            "fontWeight": "500",
+            "lineHeight": "24px /* 171.429% */",
+            "letterSpacing": "0.4px",
+            "textTransform": "uppercase",
+            "padding": "6px 8px",
+            "borderRadius": "var(--mui-shape-borderRadiusS)",
+            "opacity": "1",
+            "boxShadow": "none",
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-warning-main)",
+              "background": "none",
+              "& .MuiTouchRipple-root": {
+                "width": "59px",
+                "height": "36px",
+                "background": "var(--mui-palette-warning-_states-focusVisible)",
+                "padding": "0",
+                "opacity": "1",
+                "borderRadius": "0",
+                "boxShadow": "none"
+              }
+            },
+            "&:not(.Mui-disabled).Mui-focusVisible:not(:hover)": {
+              "color": "var(--mui-palette-warning-main)",
+              "background": "none"
+            },
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):hover": {
+              "color": "var(--mui-palette-warning-main)",
+              "background": "var(--mui-palette-warning-_states-hover)"
+            },
+            "&.Mui-disabled:not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-action-disabled)",
+              "border": "0px solid var(--mui-palette-action-disabledBackground)",
+              "background": "none"
+            }
+          },
+          "&.MuiButton-sizeMedium.MuiButton-textInfo": {
+            "fontFamily": "\"IBM Plex Sans\", Helvetica, Arial, sans-serif",
+            "fontSize": "0.875rem",
+            "fontStyle": "normal",
+            "fontWeight": "500",
+            "lineHeight": "24px /* 171.429% */",
+            "letterSpacing": "0.4px",
+            "textTransform": "uppercase",
+            "padding": "6px 8px",
+            "borderRadius": "var(--mui-shape-borderRadiusS)",
+            "opacity": "1",
+            "boxShadow": "none",
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-info-main)",
+              "background": "none",
+              "& .MuiTouchRipple-root": {
+                "width": "59px",
+                "height": "36px",
+                "background": "var(--mui-palette-primary-_states-focusVisible)",
+                "padding": "0",
+                "opacity": "1",
+                "borderRadius": "0",
+                "boxShadow": "none"
+              }
+            },
+            "&:not(.Mui-disabled).Mui-focusVisible:not(:hover)": {
+              "color": "var(--mui-palette-info-main)",
+              "background": "none"
+            },
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):hover": {
+              "color": "var(--mui-palette-info-main)",
+              "background": "var(--mui-palette-info-_states-hover)"
+            },
+            "&.Mui-disabled:not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-action-disabled)",
+              "border": "0px solid var(--mui-palette-action-disabledBackground)",
+              "background": "none"
+            }
+          },
+          "&.MuiButton-sizeMedium.MuiButton-textSuccess": {
+            "fontFamily": "\"IBM Plex Sans\", Helvetica, Arial, sans-serif",
+            "fontSize": "0.875rem",
+            "fontStyle": "normal",
+            "fontWeight": "500",
+            "lineHeight": "24px /* 171.429% */",
+            "letterSpacing": "0.4px",
+            "textTransform": "uppercase",
+            "padding": "6px 8px",
+            "borderRadius": "var(--mui-shape-borderRadiusS)",
+            "opacity": "1",
+            "boxShadow": "none",
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-success-main)",
+              "background": "none",
+              "& .MuiTouchRipple-root": {
+                "width": "59px",
+                "height": "36px",
+                "background": "var(--mui-palette-success-_states-focusVisible)",
+                "padding": "0",
+                "opacity": "1",
+                "borderRadius": "0",
+                "boxShadow": "none"
+              }
+            },
+            "&:not(.Mui-disabled).Mui-focusVisible:not(:hover)": {
+              "color": "var(--mui-palette-success-main)",
+              "background": "none"
+            },
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):hover": {
+              "color": "var(--mui-palette-success-main)",
+              "background": "var(--mui-palette-success-_states-hover)"
+            },
+            "&.Mui-disabled:not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-action-disabled)",
+              "border": "0px solid var(--mui-palette-action-disabledBackground)",
+              "background": "none"
+            }
+          },
+          "&.MuiButton-sizeLarge.MuiButton-textPrimary": {
+            "fontFeatureSettings": "'liga' off, 'clig' off",
+            "fontFamily": "\"IBM Plex Sans\", Helvetica, Arial, sans-serif",
+            "fontSize": "0.9375rem",
+            "fontStyle": "normal",
+            "fontWeight": "500",
+            "lineHeight": "26px /* 173.333% */",
+            "letterSpacing": "0.46px",
+            "textTransform": "uppercase",
+            "padding": "8px 11px",
+            "borderRadius": "var(--mui-shape-borderRadiusS)",
+            "opacity": "1",
+            "boxShadow": "none",
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-primary-main)",
+              "background": "none",
+              "& .MuiTouchRipple-root": {
+                "width": "69px",
+                "height": "42px",
+                "background": "var(--mui-palette-primary-_states-focusVisible)",
+                "padding": "0",
+                "opacity": "1",
+                "borderRadius": "0",
+                "boxShadow": "none"
+              }
+            },
+            "&:not(.Mui-disabled).Mui-focusVisible:not(:hover)": {
+              "color": "var(--mui-palette-primary-main)",
+              "background": "none"
+            },
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):hover": {
+              "color": "var(--mui-palette-primary-main)",
+              "background": "var(--mui-palette-primary-_states-hover)"
+            },
+            "&.Mui-disabled:not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-action-disabled)",
+              "border": "0px solid var(--mui-palette-action-disabledBackground)",
+              "background": "none"
+            }
+          },
+          "&.MuiButton-sizeLarge.MuiButton-textInherit": {
+            "fontFeatureSettings": "'liga' off, 'clig' off",
+            "fontFamily": "\"IBM Plex Sans\", Helvetica, Arial, sans-serif",
+            "fontSize": "0.9375rem",
+            "fontStyle": "normal",
+            "fontWeight": "500",
+            "lineHeight": "26px /* 173.333% */",
+            "letterSpacing": "0.46px",
+            "textTransform": "uppercase",
+            "padding": "8px 11px",
+            "borderRadius": "var(--mui-shape-borderRadiusS)",
+            "opacity": "1",
+            "boxShadow": "none",
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-text-primary)",
+              "background": "none",
+              "& .MuiTouchRipple-root": {
+                "width": "69px",
+                "height": "42px",
+                "background": "var(--mui-palette-text-_states-focusVisible)",
+                "padding": "0",
+                "opacity": "1",
+                "borderRadius": "0",
+                "boxShadow": "none"
+              }
+            },
+            "&:not(.Mui-disabled).Mui-focusVisible:not(:hover)": {
+              "color": "var(--mui-palette-text-primary)",
+              "background": "none"
+            },
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):hover": {
+              "color": "var(--mui-palette-text-primary)",
+              "background": "var(--mui-palette-action-hover)"
+            },
+            "&.Mui-disabled:not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-action-disabled)",
+              "border": "0px solid var(--mui-palette-action-disabledBackground)",
+              "background": "none"
+            }
+          },
+          "&.MuiButton-sizeLarge.MuiButton-textInherit (white)": {
+            "fontFeatureSettings": "'liga' off, 'clig' off",
+            "fontFamily": "\"IBM Plex Sans\", Helvetica, Arial, sans-serif",
+            "fontSize": "0.9375rem",
+            "fontStyle": "normal",
+            "fontWeight": "500",
+            "lineHeight": "26px /* 173.333% */",
+            "letterSpacing": "0.46px",
+            "textTransform": "uppercase",
+            "padding": "8px 11px",
+            "borderRadius": "var(--mui-shape-borderRadiusS)",
+            "opacity": "1",
+            "boxShadow": "none",
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-common-white_states-main)",
+              "background": "none",
+              "& .MuiTouchRipple-root": {
+                "width": "69px",
+                "height": "42px",
+                "background": "var(--mui-palette-common-white_states-focusVisible)",
+                "padding": "0",
+                "opacity": "1",
+                "borderRadius": "0",
+                "boxShadow": "none"
+              }
+            },
+            "&:not(.Mui-disabled).Mui-focusVisible:not(:hover)": {
+              "color": "var(--mui-palette-common-white_states-main)",
+              "background": "none"
+            },
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):hover": {
+              "color": "var(--mui-palette-common-white_states-main)",
+              "background": "var(--mui-palette-action-hover)"
+            },
+            "&.Mui-disabled:not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-action-disabled)",
+              "border": "0px solid var(--mui-palette-action-disabledBackground)",
+              "background": "none"
+            }
+          },
+          "&.MuiButton-sizeLarge.MuiButton-textSecondary": {
+            "fontFeatureSettings": "'liga' off, 'clig' off",
+            "fontFamily": "\"IBM Plex Sans\", Helvetica, Arial, sans-serif",
+            "fontSize": "0.9375rem",
+            "fontStyle": "normal",
+            "fontWeight": "500",
+            "lineHeight": "26px /* 173.333% */",
+            "letterSpacing": "0.46px",
+            "textTransform": "uppercase",
+            "padding": "8px 11px",
+            "borderRadius": "var(--mui-shape-borderRadiusS)",
+            "opacity": "1",
+            "boxShadow": "none",
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-secondary-main)",
+              "background": "none",
+              "& .MuiTouchRipple-root": {
+                "width": "69px",
+                "height": "42px",
+                "background": "var(--mui-palette-secondary-_states-focusVisible)",
+                "padding": "0",
+                "opacity": "1",
+                "borderRadius": "0",
+                "boxShadow": "none"
+              }
+            },
+            "&:not(.Mui-disabled).Mui-focusVisible:not(:hover)": {
+              "color": "var(--mui-palette-secondary-main)",
+              "background": "none"
+            },
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):hover": {
+              "color": "var(--mui-palette-secondary-main)",
+              "background": "var(--mui-palette-secondary-_states-hover)"
+            },
+            "&.Mui-disabled:not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-action-disabled)",
+              "border": "0px solid var(--mui-palette-action-disabledBackground)",
+              "background": "none"
+            }
+          },
+          "&.MuiButton-sizeLarge.MuiButton-textError": {
+            "fontFeatureSettings": "'liga' off, 'clig' off",
+            "fontFamily": "\"IBM Plex Sans\", Helvetica, Arial, sans-serif",
+            "fontSize": "0.9375rem",
+            "fontStyle": "normal",
+            "fontWeight": "500",
+            "lineHeight": "26px /* 173.333% */",
+            "letterSpacing": "0.46px",
+            "textTransform": "uppercase",
+            "padding": "8px 11px",
+            "borderRadius": "var(--mui-shape-borderRadiusS)",
+            "opacity": "1",
+            "boxShadow": "none",
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-error-main)",
+              "background": "none",
+              "& .MuiTouchRipple-root": {
+                "width": "69px",
+                "height": "42px",
+                "background": "var(--mui-palette-error-_states-focusVisible)",
+                "padding": "0",
+                "opacity": "1",
+                "borderRadius": "0",
+                "boxShadow": "none"
+              }
+            },
+            "&:not(.Mui-disabled).Mui-focusVisible:not(:hover)": {
+              "color": "var(--mui-palette-error-main)",
+              "background": "none"
+            },
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):hover": {
+              "color": "var(--mui-palette-error-main)",
+              "background": "var(--mui-palette-error-_states-hover)"
+            },
+            "&.Mui-disabled:not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-action-disabled)",
+              "border": "0px solid var(--mui-palette-action-disabledBackground)",
+              "background": "none"
+            }
+          },
+          "&.MuiButton-sizeLarge.MuiButton-textWarning": {
+            "fontFeatureSettings": "'liga' off, 'clig' off",
+            "fontFamily": "\"IBM Plex Sans\", Helvetica, Arial, sans-serif",
+            "fontSize": "0.9375rem",
+            "fontStyle": "normal",
+            "fontWeight": "500",
+            "lineHeight": "26px /* 173.333% */",
+            "letterSpacing": "0.46px",
+            "textTransform": "uppercase",
+            "padding": "8px 11px",
+            "borderRadius": "var(--mui-shape-borderRadiusS)",
+            "opacity": "1",
+            "boxShadow": "none",
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-warning-main)",
+              "background": "none",
+              "& .MuiTouchRipple-root": {
+                "width": "69px",
+                "height": "42px",
+                "background": "var(--mui-palette-warning-_states-focusVisible)",
+                "padding": "0",
+                "opacity": "1",
+                "borderRadius": "0",
+                "boxShadow": "none"
+              }
+            },
+            "&:not(.Mui-disabled).Mui-focusVisible:not(:hover)": {
+              "color": "var(--mui-palette-warning-main)",
+              "background": "none"
+            },
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):hover": {
+              "color": "var(--mui-palette-warning-main)",
+              "background": "var(--mui-palette-warning-_states-hover)"
+            },
+            "&.Mui-disabled:not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-action-disabled)",
+              "border": "0px solid var(--mui-palette-action-disabledBackground)",
+              "background": "none"
+            }
+          },
+          "&.MuiButton-sizeLarge.MuiButton-textInfo": {
+            "fontFeatureSettings": "'liga' off, 'clig' off",
+            "fontFamily": "\"IBM Plex Sans\", Helvetica, Arial, sans-serif",
+            "fontSize": "0.9375rem",
+            "fontStyle": "normal",
+            "fontWeight": "500",
+            "lineHeight": "26px /* 173.333% */",
+            "letterSpacing": "0.46px",
+            "textTransform": "uppercase",
+            "padding": "8px 11px",
+            "borderRadius": "var(--mui-shape-borderRadiusS)",
+            "opacity": "1",
+            "boxShadow": "none",
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-info-main)",
+              "background": "none",
+              "& .MuiTouchRipple-root": {
+                "width": "69px",
+                "height": "42px",
+                "background": "var(--mui-palette-primary-_states-focusVisible)",
+                "padding": "0",
+                "opacity": "1",
+                "borderRadius": "0",
+                "boxShadow": "none"
+              }
+            },
+            "&:not(.Mui-disabled).Mui-focusVisible:not(:hover)": {
+              "color": "var(--mui-palette-info-main)",
+              "background": "none"
+            },
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):hover": {
+              "color": "var(--mui-palette-info-main)",
+              "background": "var(--mui-palette-info-_states-hover)"
+            },
+            "&.Mui-disabled:not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-action-disabled)",
+              "border": "0px solid var(--mui-palette-action-disabledBackground)",
+              "background": "none"
+            }
+          },
+          "&.MuiButton-sizeLarge.MuiButton-textSuccess": {
+            "fontFeatureSettings": "'liga' off, 'clig' off",
+            "fontFamily": "\"IBM Plex Sans\", Helvetica, Arial, sans-serif",
+            "fontSize": "0.9375rem",
+            "fontStyle": "normal",
+            "fontWeight": "500",
+            "lineHeight": "26px /* 173.333% */",
+            "letterSpacing": "0.46px",
+            "textTransform": "uppercase",
+            "padding": "8px 11px",
+            "borderRadius": "var(--mui-shape-borderRadiusS)",
+            "opacity": "1",
+            "boxShadow": "none",
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-success-main)",
+              "background": "none",
+              "& .MuiTouchRipple-root": {
+                "width": "69px",
+                "height": "42px",
+                "background": "var(--mui-palette-success-_states-focusVisible)",
+                "padding": "0",
+                "opacity": "1",
+                "borderRadius": "0",
+                "boxShadow": "none"
+              }
+            },
+            "&:not(.Mui-disabled).Mui-focusVisible:not(:hover)": {
+              "color": "var(--mui-palette-success-main)",
+              "background": "none"
+            },
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):hover": {
+              "color": "var(--mui-palette-success-main)",
+              "background": "var(--mui-palette-success-_states-hover)"
+            },
+            "&.Mui-disabled:not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-action-disabled)",
+              "border": "0px solid var(--mui-palette-action-disabledBackground)",
+              "background": "none"
+            }
+          },
+          "&.MuiButton-sizeSmall.MuiButton-textPrimary": {
+            "fontFamily": "\"IBM Plex Sans\", Helvetica, Arial, sans-serif",
+            "fontSize": "0.8125rem",
+            "fontStyle": "normal",
+            "fontWeight": "500",
+            "lineHeight": "22px /* 169.231% */",
+            "letterSpacing": "0.46px",
+            "textTransform": "uppercase",
+            "padding": "4px 5px",
+            "borderRadius": "var(--mui-shape-borderRadiusS)",
+            "opacity": "1",
+            "boxShadow": "none",
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-primary-main)",
+              "background": "none",
+              "& .MuiTouchRipple-root": {
+                "width": "51px",
+                "height": "30px",
+                "background": "var(--mui-palette-primary-_states-focusVisible)",
+                "padding": "0",
+                "opacity": "1",
+                "borderRadius": "0",
+                "boxShadow": "none"
+              }
+            },
+            "&:not(.Mui-disabled).Mui-focusVisible:not(:hover)": {
+              "color": "var(--mui-palette-primary-main)",
+              "background": "none"
+            },
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):hover": {
+              "color": "var(--mui-palette-primary-main)",
+              "background": "var(--mui-palette-primary-_states-hover)"
+            },
+            "&.Mui-disabled:not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-action-disabled)",
+              "background": "none"
+            }
+          },
+          "&.MuiButton-sizeSmall.MuiButton-textInherit": {
+            "fontFamily": "\"IBM Plex Sans\", Helvetica, Arial, sans-serif",
+            "fontSize": "0.8125rem",
+            "fontStyle": "normal",
+            "fontWeight": "500",
+            "lineHeight": "22px /* 169.231% */",
+            "letterSpacing": "0.46px",
+            "textTransform": "uppercase",
+            "padding": "4px 5px",
+            "borderRadius": "var(--mui-shape-borderRadiusS)",
+            "opacity": "1",
+            "boxShadow": "none",
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-text-primary)",
+              "background": "none",
+              "& .MuiTouchRipple-root": {
+                "width": "51px",
+                "height": "30px",
+                "background": "var(--mui-palette-text-_states-focusVisible)",
+                "padding": "0",
+                "opacity": "1",
+                "borderRadius": "0",
+                "boxShadow": "none"
+              }
+            },
+            "&:not(.Mui-disabled).Mui-focusVisible:not(:hover)": {
+              "color": "var(--mui-palette-text-primary)",
+              "background": "none"
+            },
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):hover": {
+              "color": "var(--mui-palette-text-primary)",
+              "background": "var(--mui-palette-action-hover)"
+            },
+            "&.Mui-disabled:not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-action-disabled)",
+              "background": "none"
+            }
+          },
+          "&.MuiButton-sizeSmall.MuiButton-textInherit (white)": {
+            "fontFamily": "\"IBM Plex Sans\", Helvetica, Arial, sans-serif",
+            "fontSize": "0.8125rem",
+            "fontStyle": "normal",
+            "fontWeight": "500",
+            "lineHeight": "22px /* 169.231% */",
+            "letterSpacing": "0.46px",
+            "textTransform": "uppercase",
+            "padding": "4px 5px",
+            "borderRadius": "var(--mui-shape-borderRadiusS)",
+            "opacity": "1",
+            "boxShadow": "none",
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-common-white_states-main)",
+              "background": "none",
+              "& .MuiTouchRipple-root": {
+                "width": "51px",
+                "height": "30px",
+                "background": "var(--mui-palette-common-white_states-focusVisible)",
+                "padding": "0",
+                "opacity": "1",
+                "borderRadius": "0",
+                "boxShadow": "none"
+              }
+            },
+            "&:not(.Mui-disabled).Mui-focusVisible:not(:hover)": {
+              "color": "var(--mui-palette-common-white_states-main)",
+              "background": "none"
+            },
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):hover": {
+              "color": "var(--mui-palette-common-white_states-main)",
+              "background": "var(--mui-palette-action-hover)"
+            },
+            "&.Mui-disabled:not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-action-disabled)",
+              "background": "none"
+            }
+          },
+          "&.MuiButton-sizeSmall.MuiButton-textSecondary": {
+            "fontFamily": "\"IBM Plex Sans\", Helvetica, Arial, sans-serif",
+            "fontSize": "0.8125rem",
+            "fontStyle": "normal",
+            "fontWeight": "500",
+            "lineHeight": "22px /* 169.231% */",
+            "letterSpacing": "0.46px",
+            "textTransform": "uppercase",
+            "padding": "4px 5px",
+            "borderRadius": "var(--mui-shape-borderRadiusS)",
+            "opacity": "1",
+            "boxShadow": "none",
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-secondary-main)",
+              "background": "none",
+              "& .MuiTouchRipple-root": {
+                "width": "51px",
+                "height": "30px",
+                "background": "var(--mui-palette-secondary-_states-focusVisible)",
+                "padding": "0",
+                "opacity": "1",
+                "borderRadius": "0",
+                "boxShadow": "none"
+              }
+            },
+            "&:not(.Mui-disabled).Mui-focusVisible:not(:hover)": {
+              "color": "var(--mui-palette-secondary-main)",
+              "background": "none"
+            },
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):hover": {
+              "color": "var(--mui-palette-secondary-main)",
+              "background": "var(--mui-palette-secondary-_states-hover)"
+            },
+            "&.Mui-disabled:not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-action-disabled)",
+              "background": "none"
+            }
+          },
+          "&.MuiButton-sizeSmall.MuiButton-textError": {
+            "fontFamily": "\"IBM Plex Sans\", Helvetica, Arial, sans-serif",
+            "fontSize": "0.8125rem",
+            "fontStyle": "normal",
+            "fontWeight": "500",
+            "lineHeight": "22px /* 169.231% */",
+            "letterSpacing": "0.46px",
+            "textTransform": "uppercase",
+            "padding": "4px 5px",
+            "borderRadius": "var(--mui-shape-borderRadiusS)",
+            "opacity": "1",
+            "boxShadow": "none",
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-error-main)",
+              "background": "none",
+              "& .MuiTouchRipple-root": {
+                "width": "51px",
+                "height": "30px",
+                "background": "var(--mui-palette-error-_states-focusVisible)",
+                "padding": "0",
+                "opacity": "1",
+                "borderRadius": "0",
+                "boxShadow": "none"
+              }
+            },
+            "&:not(.Mui-disabled).Mui-focusVisible:not(:hover)": {
+              "color": "var(--mui-palette-error-main)",
+              "background": "none"
+            },
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):hover": {
+              "color": "var(--mui-palette-error-main)",
+              "background": "var(--mui-palette-error-_states-hover)"
+            },
+            "&.Mui-disabled:not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-action-disabled)",
+              "background": "none"
+            }
+          },
+          "&.MuiButton-sizeSmall.MuiButton-textWarning": {
+            "fontFamily": "\"IBM Plex Sans\", Helvetica, Arial, sans-serif",
+            "fontSize": "0.8125rem",
+            "fontStyle": "normal",
+            "fontWeight": "500",
+            "lineHeight": "22px /* 169.231% */",
+            "letterSpacing": "0.46px",
+            "textTransform": "uppercase",
+            "padding": "4px 5px",
+            "borderRadius": "var(--mui-shape-borderRadiusS)",
+            "opacity": "1",
+            "boxShadow": "none",
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-warning-main)",
+              "background": "none",
+              "& .MuiTouchRipple-root": {
+                "width": "51px",
+                "height": "30px",
+                "background": "var(--mui-palette-warning-_states-focusVisible)",
+                "padding": "0",
+                "opacity": "1",
+                "borderRadius": "0",
+                "boxShadow": "none"
+              }
+            },
+            "&:not(.Mui-disabled).Mui-focusVisible:not(:hover)": {
+              "color": "var(--mui-palette-warning-main)",
+              "background": "none"
+            },
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):hover": {
+              "color": "var(--mui-palette-warning-main)",
+              "background": "var(--mui-palette-warning-_states-hover)"
+            },
+            "&.Mui-disabled:not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-action-disabled)",
+              "background": "none"
+            }
+          },
+          "&.MuiButton-sizeSmall.MuiButton-textInfo": {
+            "fontFamily": "\"IBM Plex Sans\", Helvetica, Arial, sans-serif",
+            "fontSize": "0.8125rem",
+            "fontStyle": "normal",
+            "fontWeight": "500",
+            "lineHeight": "22px /* 169.231% */",
+            "letterSpacing": "0.46px",
+            "textTransform": "uppercase",
+            "padding": "4px 5px",
+            "borderRadius": "var(--mui-shape-borderRadiusS)",
+            "opacity": "1",
+            "boxShadow": "none",
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-info-main)",
+              "background": "none",
+              "& .MuiTouchRipple-root": {
+                "width": "51px",
+                "height": "30px",
+                "background": "var(--mui-palette-primary-_states-focusVisible)",
+                "padding": "0",
+                "opacity": "1",
+                "borderRadius": "0",
+                "boxShadow": "none"
+              }
+            },
+            "&:not(.Mui-disabled).Mui-focusVisible:not(:hover)": {
+              "color": "var(--mui-palette-info-main)",
+              "background": "none"
+            },
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):hover": {
+              "color": "var(--mui-palette-info-main)",
+              "background": "var(--mui-palette-info-_states-hover)"
+            },
+            "&.Mui-disabled:not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-action-disabled)",
+              "background": "none"
+            }
+          },
+          "&.MuiButton-sizeSmall.MuiButton-textSuccess": {
+            "fontFamily": "\"IBM Plex Sans\", Helvetica, Arial, sans-serif",
+            "fontSize": "0.8125rem",
+            "fontStyle": "normal",
+            "fontWeight": "500",
+            "lineHeight": "22px /* 169.231% */",
+            "letterSpacing": "0.46px",
+            "textTransform": "uppercase",
+            "padding": "4px 5px",
+            "borderRadius": "var(--mui-shape-borderRadiusS)",
+            "opacity": "1",
+            "boxShadow": "none",
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-success-main)",
+              "background": "none",
+              "& .MuiTouchRipple-root": {
+                "width": "51px",
+                "height": "30px",
+                "background": "var(--mui-palette-success-_states-focusVisible)",
+                "padding": "0",
+                "opacity": "1",
+                "borderRadius": "0",
+                "boxShadow": "none"
+              }
+            },
+            "&:not(.Mui-disabled).Mui-focusVisible:not(:hover)": {
+              "color": "var(--mui-palette-success-main)",
+              "background": "none"
+            },
+            "&:not(.Mui-disabled):not(.Mui-focusVisible):hover": {
+              "color": "var(--mui-palette-success-main)",
+              "background": "var(--mui-palette-success-_states-hover)"
+            },
+            "&.Mui-disabled:not(.Mui-focusVisible):not(:hover)": {
+              "color": "var(--mui-palette-action-disabled)",
+              "background": "none"
+            }
+          }
+        }
+      }
+    },
+    "MuiSwitch": {
+      "styleOverrides": {
+        "root": {
+          "&.MuiSwitch-sizeMedium:has(.MuiSwitch-colorDefault)": {
+            "& .MuiSwitch-switchBase": {
+              "padding": "9px",
+              "borderRadius": "100px",
+              "background": "none",
+              "opacity": "1",
+              "boxShadow": "none"
+            },
+            "&:not(:has(.Mui-checked)):not(:has(.Mui-disabled)):has(.Mui-focusVisible)": {
+              "& .MuiSwitch-switchBase": {
+                "transform": "translateX(0px) translateY(0px)"
+              }
+            },
+            "&:not(:has(.Mui-checked)):not(:has(.Mui-disabled)):not(:has(.Mui-focusVisible))": {
+              "width": "58px",
+              "height": "38px",
+              "transform": "translateX(0px) translateY(0px)",
+              "padding": "12px",
+              "background": "none",
+              "opacity": "1",
+              "borderRadius": "0",
+              "boxShadow": "none",
+              "& .MuiSwitch-switchBase": {
+                "transform": "translateX(0px) translateY(0px)",
+                "& .MuiSwitch-thumb": {
+                  "width": "20px",
+                  "height": "20px",
+                  "background": "var(--mui-palette-_components-switch-knobFillEnabled)",
+                  "boxShadow": "var(--mui-shadows-1)",
+                  "padding": "0",
+                  "opacity": "1",
+                  "borderRadius": "50%"
+                },
+                "& + .MuiSwitch-track": {
+                  "width": "34px",
+                  "height": "14px",
+                  "borderRadius": "100px",
+                  "background": "var(--mui-palette-_components-switch-slideFill)",
+                  "padding": "0",
+                  "opacity": "0.38",
+                  "boxShadow": "none",
+                  "transform": "translateX(0px) translateY(0px)"
+                }
+              }
+            },
+            "&:has(.Mui-checked):not(:has(.Mui-disabled)):has(.Mui-focusVisible)": {
+              "& .MuiSwitch-switchBase": {
+                "transform": "translateX(20px) translateY(0px)"
+              }
+            },
+            "&:has(.Mui-checked):not(:has(.Mui-disabled)):not(:has(.Mui-focusVisible))": {
+              "width": "58px",
+              "height": "38px",
+              "transform": "translateX(0px) translateY(0px)",
+              "padding": "12px",
+              "background": "none",
+              "opacity": "1",
+              "borderRadius": "0",
+              "boxShadow": "none",
+              "& .MuiSwitch-switchBase": {
+                "transform": "translateX(20px) translateY(0px)",
+                "& .MuiSwitch-thumb": {
+                  "width": "20px",
+                  "height": "20px",
+                  "background": "var(--mui-palette-common-white_states-main)",
+                  "boxShadow": "var(--mui-shadows-1)",
+                  "padding": "0",
+                  "opacity": "1",
+                  "borderRadius": "50%"
+                },
+                "& + .MuiSwitch-track": {
+                  "width": "34px",
+                  "height": "14px",
+                  "borderRadius": "100px",
+                  "background": "var(--mui-palette-_components-switch-slideFill)",
+                  "padding": "0",
+                  "opacity": "0.5",
+                  "boxShadow": "none",
+                  "transform": "translateX(0px) translateY(0px)"
+                }
+              }
+            }
+          },
+          "&.MuiSwitch-sizeMedium:has(.MuiSwitch-colorPrimary)": {
+            "& .MuiSwitch-switchBase": {
+              "padding": "9px",
+              "borderRadius": "100px",
+              "background": "none",
+              "opacity": "1",
+              "boxShadow": "none"
+            },
+            "&:not(:has(.Mui-checked)):not(:has(.Mui-disabled)):has(.Mui-focusVisible)": {
+              "& .MuiSwitch-switchBase": {
+                "transform": "translateX(0px) translateY(0px)"
+              }
+            },
+            "&:not(:has(.Mui-checked)):not(:has(.Mui-disabled)):not(:has(.Mui-focusVisible))": {
+              "width": "58px",
+              "height": "38px",
+              "transform": "translateX(0px) translateY(0px)",
+              "padding": "12px",
+              "background": "none",
+              "opacity": "1",
+              "borderRadius": "0",
+              "boxShadow": "none",
+              "& .MuiSwitch-switchBase": {
+                "transform": "translateX(0px) translateY(0px)",
+                "& .MuiSwitch-thumb": {
+                  "width": "20px",
+                  "height": "20px",
+                  "background": "var(--mui-palette-_components-switch-knobFillEnabled)",
+                  "boxShadow": "var(--mui-shadows-1)",
+                  "padding": "0",
+                  "opacity": "1",
+                  "borderRadius": "50%"
+                },
+                "& + .MuiSwitch-track": {
+                  "width": "34px",
+                  "height": "14px",
+                  "borderRadius": "100px",
+                  "background": "var(--mui-palette-_components-switch-slideFill)",
+                  "padding": "0",
+                  "opacity": "0.38",
+                  "boxShadow": "none",
+                  "transform": "translateX(0px) translateY(0px)"
+                }
+              }
+            },
+            "&:has(.Mui-checked):not(:has(.Mui-disabled)):has(.Mui-focusVisible)": {
+              "& .MuiSwitch-switchBase": {
+                "transform": "translateX(20px) translateY(0px)"
+              }
+            },
+            "&:has(.Mui-checked):not(:has(.Mui-disabled)):not(:has(.Mui-focusVisible))": {
+              "width": "58px",
+              "height": "38px",
+              "transform": "translateX(0px) translateY(0px)",
+              "padding": "12px",
+              "background": "none",
+              "opacity": "1",
+              "borderRadius": "0",
+              "boxShadow": "none",
+              "& .MuiSwitch-switchBase": {
+                "transform": "translateX(20px) translateY(0px)",
+                "& .MuiSwitch-thumb": {
+                  "width": "20px",
+                  "height": "20px",
+                  "background": "var(--mui-palette-primary-main)",
+                  "boxShadow": "var(--mui-shadows-1)",
+                  "padding": "0",
+                  "opacity": "1",
+                  "borderRadius": "50%"
+                },
+                "& + .MuiSwitch-track": {
+                  "width": "34px",
+                  "height": "14px",
+                  "borderRadius": "100px",
+                  "background": "var(--mui-palette-primary-main)",
+                  "padding": "0",
+                  "opacity": "0.5",
+                  "boxShadow": "none",
+                  "transform": "translateX(0px) translateY(0px)"
+                }
+              }
+            }
+          },
+          "&.MuiSwitch-sizeMedium:has(.MuiSwitch-colorError)": {
+            "& .MuiSwitch-switchBase": {
+              "padding": "9px",
+              "borderRadius": "100px",
+              "background": "none",
+              "opacity": "1",
+              "boxShadow": "none"
+            },
+            "&:not(:has(.Mui-checked)):not(:has(.Mui-disabled)):has(.Mui-focusVisible)": {
+              "& .MuiSwitch-switchBase": {
+                "transform": "translateX(0px) translateY(0px)"
+              }
+            },
+            "&:not(:has(.Mui-checked)):not(:has(.Mui-disabled)):not(:has(.Mui-focusVisible))": {
+              "width": "58px",
+              "height": "38px",
+              "transform": "translateX(0px) translateY(0px)",
+              "padding": "12px",
+              "background": "none",
+              "opacity": "1",
+              "borderRadius": "0",
+              "boxShadow": "none",
+              "& .MuiSwitch-switchBase": {
+                "transform": "translateX(0px) translateY(0px)",
+                "& .MuiSwitch-thumb": {
+                  "width": "20px",
+                  "height": "20px",
+                  "background": "var(--mui-palette-_components-switch-knobFillEnabled)",
+                  "boxShadow": "var(--mui-shadows-1)",
+                  "padding": "0",
+                  "opacity": "1",
+                  "borderRadius": "50%"
+                },
+                "& + .MuiSwitch-track": {
+                  "width": "34px",
+                  "height": "14px",
+                  "borderRadius": "100px",
+                  "background": "var(--mui-palette-_components-switch-slideFill)",
+                  "padding": "0",
+                  "opacity": "0.38",
+                  "boxShadow": "none",
+                  "transform": "translateX(0px) translateY(0px)"
+                }
+              }
+            },
+            "&:has(.Mui-checked):not(:has(.Mui-disabled)):has(.Mui-focusVisible)": {
+              "& .MuiSwitch-switchBase": {
+                "transform": "translateX(20px) translateY(0px)"
+              }
+            },
+            "&:has(.Mui-checked):not(:has(.Mui-disabled)):not(:has(.Mui-focusVisible))": {
+              "width": "58px",
+              "height": "38px",
+              "transform": "translateX(0px) translateY(0px)",
+              "padding": "12px",
+              "background": "none",
+              "opacity": "1",
+              "borderRadius": "0",
+              "boxShadow": "none",
+              "& .MuiSwitch-switchBase": {
+                "transform": "translateX(20px) translateY(0px)",
+                "& .MuiSwitch-thumb": {
+                  "width": "20px",
+                  "height": "20px",
+                  "background": "var(--mui-palette-error-main)",
+                  "boxShadow": "var(--mui-shadows-1)",
+                  "padding": "0",
+                  "opacity": "1",
+                  "borderRadius": "50%"
+                },
+                "& + .MuiSwitch-track": {
+                  "width": "34px",
+                  "height": "14px",
+                  "borderRadius": "100px",
+                  "background": "var(--mui-palette-error-main)",
+                  "padding": "0",
+                  "opacity": "0.5",
+                  "boxShadow": "none",
+                  "transform": "translateX(0px) translateY(0px)"
+                }
+              }
+            }
+          },
+          "&.MuiSwitch-sizeMedium:has(.MuiSwitch-colorWarning)": {
+            "& .MuiSwitch-switchBase": {
+              "padding": "9px",
+              "borderRadius": "100px",
+              "background": "none",
+              "opacity": "1",
+              "boxShadow": "none"
+            },
+            "&:not(:has(.Mui-checked)):not(:has(.Mui-disabled)):has(.Mui-focusVisible)": {
+              "& .MuiSwitch-switchBase": {
+                "transform": "translateX(0px) translateY(0px)"
+              }
+            },
+            "&:not(:has(.Mui-checked)):not(:has(.Mui-disabled)):not(:has(.Mui-focusVisible))": {
+              "width": "58px",
+              "height": "38px",
+              "transform": "translateX(0px) translateY(0px)",
+              "padding": "12px",
+              "background": "none",
+              "opacity": "1",
+              "borderRadius": "0",
+              "boxShadow": "none",
+              "& .MuiSwitch-switchBase": {
+                "transform": "translateX(0px) translateY(0px)",
+                "& .MuiSwitch-thumb": {
+                  "width": "20px",
+                  "height": "20px",
+                  "background": "var(--mui-palette-_components-switch-knobFillEnabled)",
+                  "boxShadow": "var(--mui-shadows-1)",
+                  "padding": "0",
+                  "opacity": "1",
+                  "borderRadius": "50%"
+                },
+                "& + .MuiSwitch-track": {
+                  "width": "34px",
+                  "height": "14px",
+                  "borderRadius": "100px",
+                  "background": "var(--mui-palette-_components-switch-slideFill)",
+                  "padding": "0",
+                  "opacity": "0.38",
+                  "boxShadow": "none",
+                  "transform": "translateX(0px) translateY(0px)"
+                }
+              }
+            },
+            "&:has(.Mui-checked):not(:has(.Mui-disabled)):has(.Mui-focusVisible)": {
+              "& .MuiSwitch-switchBase": {
+                "transform": "translateX(20px) translateY(0px)"
+              }
+            },
+            "&:has(.Mui-checked):not(:has(.Mui-disabled)):not(:has(.Mui-focusVisible))": {
+              "width": "58px",
+              "height": "38px",
+              "transform": "translateX(0px) translateY(0px)",
+              "padding": "12px",
+              "background": "none",
+              "opacity": "1",
+              "borderRadius": "0",
+              "boxShadow": "none",
+              "& .MuiSwitch-switchBase": {
+                "transform": "translateX(20px) translateY(0px)",
+                "& .MuiSwitch-thumb": {
+                  "width": "20px",
+                  "height": "20px",
+                  "background": "var(--mui-palette-warning-main)",
+                  "boxShadow": "var(--mui-shadows-1)",
+                  "padding": "0",
+                  "opacity": "1",
+                  "borderRadius": "50%"
+                },
+                "& + .MuiSwitch-track": {
+                  "width": "34px",
+                  "height": "14px",
+                  "borderRadius": "100px",
+                  "background": "var(--mui-palette-warning-main)",
+                  "padding": "0",
+                  "opacity": "0.5",
+                  "boxShadow": "none",
+                  "transform": "translateX(0px) translateY(0px)"
+                }
+              }
+            }
+          },
+          "&.MuiSwitch-sizeMedium:has(.MuiSwitch-colorInfo)": {
+            "& .MuiSwitch-switchBase": {
+              "padding": "9px",
+              "borderRadius": "100px",
+              "background": "none",
+              "opacity": "1",
+              "boxShadow": "none"
+            },
+            "&:not(:has(.Mui-checked)):not(:has(.Mui-disabled)):has(.Mui-focusVisible)": {
+              "& .MuiSwitch-switchBase": {
+                "transform": "translateX(0px) translateY(0px)"
+              }
+            },
+            "&:not(:has(.Mui-checked)):not(:has(.Mui-disabled)):not(:has(.Mui-focusVisible))": {
+              "width": "58px",
+              "height": "38px",
+              "transform": "translateX(0px) translateY(0px)",
+              "padding": "12px",
+              "background": "none",
+              "opacity": "1",
+              "borderRadius": "0",
+              "boxShadow": "none",
+              "& .MuiSwitch-switchBase": {
+                "transform": "translateX(0px) translateY(0px)",
+                "& .MuiSwitch-thumb": {
+                  "width": "20px",
+                  "height": "20px",
+                  "background": "var(--mui-palette-_components-switch-knobFillEnabled)",
+                  "boxShadow": "var(--mui-shadows-1)",
+                  "padding": "0",
+                  "opacity": "1",
+                  "borderRadius": "50%"
+                },
+                "& + .MuiSwitch-track": {
+                  "width": "34px",
+                  "height": "14px",
+                  "borderRadius": "100px",
+                  "background": "var(--mui-palette-_components-switch-slideFill)",
+                  "padding": "0",
+                  "opacity": "0.38",
+                  "boxShadow": "none",
+                  "transform": "translateX(0px) translateY(0px)"
+                }
+              }
+            },
+            "&:has(.Mui-checked):not(:has(.Mui-disabled)):has(.Mui-focusVisible)": {
+              "& .MuiSwitch-switchBase": {
+                "transform": "translateX(20px) translateY(0px)"
+              }
+            },
+            "&:has(.Mui-checked):not(:has(.Mui-disabled)):not(:has(.Mui-focusVisible))": {
+              "width": "58px",
+              "height": "38px",
+              "transform": "translateX(0px) translateY(0px)",
+              "padding": "12px",
+              "background": "none",
+              "opacity": "1",
+              "borderRadius": "0",
+              "boxShadow": "none",
+              "& .MuiSwitch-switchBase": {
+                "transform": "translateX(20px) translateY(0px)",
+                "& .MuiSwitch-thumb": {
+                  "width": "20px",
+                  "height": "20px",
+                  "background": "var(--mui-palette-info-main)",
+                  "boxShadow": "var(--mui-shadows-1)",
+                  "padding": "0",
+                  "opacity": "1",
+                  "borderRadius": "50%"
+                },
+                "& + .MuiSwitch-track": {
+                  "width": "34px",
+                  "height": "14px",
+                  "borderRadius": "100px",
+                  "background": "var(--mui-palette-info-main)",
+                  "padding": "0",
+                  "opacity": "0.5",
+                  "boxShadow": "none",
+                  "transform": "translateX(0px) translateY(0px)"
+                }
+              }
+            }
+          },
+          "&.MuiSwitch-sizeMedium:has(.MuiSwitch-colorSuccess)": {
+            "& .MuiSwitch-switchBase": {
+              "padding": "9px",
+              "borderRadius": "100px",
+              "background": "none",
+              "opacity": "1",
+              "boxShadow": "none"
+            },
+            "&:not(:has(.Mui-checked)):not(:has(.Mui-disabled)):has(.Mui-focusVisible)": {
+              "& .MuiSwitch-switchBase": {
+                "transform": "translateX(0px) translateY(0px)"
+              }
+            },
+            "&:not(:has(.Mui-checked)):not(:has(.Mui-disabled)):not(:has(.Mui-focusVisible))": {
+              "width": "58px",
+              "height": "38px",
+              "transform": "translateX(0px) translateY(0px)",
+              "padding": "12px",
+              "background": "none",
+              "opacity": "1",
+              "borderRadius": "0",
+              "boxShadow": "none",
+              "& .MuiSwitch-switchBase": {
+                "transform": "translateX(0px) translateY(0px)",
+                "& .MuiSwitch-thumb": {
+                  "width": "20px",
+                  "height": "20px",
+                  "background": "var(--mui-palette-_components-switch-knobFillEnabled)",
+                  "boxShadow": "var(--mui-shadows-1)",
+                  "padding": "0",
+                  "opacity": "1",
+                  "borderRadius": "50%"
+                },
+                "& + .MuiSwitch-track": {
+                  "width": "34px",
+                  "height": "14px",
+                  "borderRadius": "100px",
+                  "background": "var(--mui-palette-_components-switch-slideFill)",
+                  "padding": "0",
+                  "opacity": "0.38",
+                  "boxShadow": "none",
+                  "transform": "translateX(0px) translateY(0px)"
+                }
+              }
+            },
+            "&:has(.Mui-checked):not(:has(.Mui-disabled)):has(.Mui-focusVisible)": {
+              "& .MuiSwitch-switchBase": {
+                "transform": "translateX(20px) translateY(0px)"
+              }
+            },
+            "&:has(.Mui-checked):not(:has(.Mui-disabled)):not(:has(.Mui-focusVisible))": {
+              "width": "58px",
+              "height": "38px",
+              "transform": "translateX(0px) translateY(0px)",
+              "padding": "12px",
+              "background": "none",
+              "opacity": "1",
+              "borderRadius": "0",
+              "boxShadow": "none",
+              "& .MuiSwitch-switchBase": {
+                "transform": "translateX(20px) translateY(0px)",
+                "& .MuiSwitch-thumb": {
+                  "width": "20px",
+                  "height": "20px",
+                  "background": "var(--mui-palette-success-main)",
+                  "boxShadow": "var(--mui-shadows-1)",
+                  "padding": "0",
+                  "opacity": "1",
+                  "borderRadius": "50%"
+                },
+                "& + .MuiSwitch-track": {
+                  "width": "34px",
+                  "height": "14px",
+                  "borderRadius": "100px",
+                  "background": "var(--mui-palette-success-main)",
+                  "padding": "0",
+                  "opacity": "0.5",
+                  "boxShadow": "none",
+                  "transform": "translateX(0px) translateY(0px)"
+                }
+              }
+            }
+          },
+          "&.MuiSwitch-sizeMedium:has(.MuiSwitch-colorSecondary)": {
+            "& .MuiSwitch-switchBase": {
+              "padding": "9px",
+              "borderRadius": "100px",
+              "background": "none",
+              "opacity": "1",
+              "boxShadow": "none"
+            },
+            "&:has(.Mui-checked):not(:has(.Mui-disabled)):has(.Mui-focusVisible)": {
+              "& .MuiSwitch-switchBase": {
+                "transform": "translateX(20px) translateY(0px)"
+              }
+            },
+            "&:has(.Mui-checked):not(:has(.Mui-disabled)):not(:has(.Mui-focusVisible))": {
+              "width": "58px",
+              "height": "38px",
+              "transform": "translateX(0px) translateY(0px)",
+              "padding": "12px",
+              "background": "none",
+              "opacity": "1",
+              "borderRadius": "0",
+              "boxShadow": "none",
+              "& .MuiSwitch-switchBase": {
+                "transform": "translateX(20px) translateY(0px)",
+                "& .MuiSwitch-thumb": {
+                  "width": "20px",
+                  "height": "20px",
+                  "background": "var(--mui-palette-secondary-main)",
+                  "boxShadow": "var(--mui-shadows-1)",
+                  "padding": "0",
+                  "opacity": "1",
+                  "borderRadius": "50%"
+                },
+                "& + .MuiSwitch-track": {
+                  "width": "34px",
+                  "height": "14px",
+                  "borderRadius": "100px",
+                  "background": "var(--mui-palette-secondary-main)",
+                  "padding": "0",
+                  "opacity": "0.5",
+                  "boxShadow": "none",
+                  "transform": "translateX(0px) translateY(0px)"
+                }
+              }
+            },
+            "&:not(:has(.Mui-checked)):not(:has(.Mui-disabled)):has(.Mui-focusVisible)": {
+              "& .MuiSwitch-switchBase": {
+                "transform": "translateX(0px) translateY(0px)"
+              }
+            },
+            "&:not(:has(.Mui-checked)):not(:has(.Mui-disabled)):not(:has(.Mui-focusVisible))": {
+              "width": "58px",
+              "height": "38px",
+              "transform": "translateX(0px) translateY(0px)",
+              "padding": "12px",
+              "background": "none",
+              "opacity": "1",
+              "borderRadius": "0",
+              "boxShadow": "none",
+              "& .MuiSwitch-switchBase": {
+                "transform": "translateX(0px) translateY(0px)",
+                "& .MuiSwitch-thumb": {
+                  "width": "20px",
+                  "height": "20px",
+                  "background": "var(--mui-palette-_components-switch-knobFillEnabled)",
+                  "boxShadow": "var(--mui-shadows-1)",
+                  "padding": "0",
+                  "opacity": "1",
+                  "borderRadius": "50%"
+                },
+                "& + .MuiSwitch-track": {
+                  "width": "34px",
+                  "height": "14px",
+                  "borderRadius": "100px",
+                  "background": "var(--mui-palette-_components-switch-slideFill)",
+                  "padding": "0",
+                  "opacity": "0.38",
+                  "boxShadow": "none",
+                  "transform": "translateX(0px) translateY(0px)"
+                }
+              }
+            }
+          },
+          "&.MuiSwitch-sizeSmall:has(.MuiSwitch-colorDefault)": {
+            "& .MuiSwitch-switchBase": {
+              "padding": "4px",
+              "borderRadius": "100px",
+              "background": "none",
+              "opacity": "1",
+              "boxShadow": "none"
+            },
+            "&:not(:has(.Mui-checked)):not(:has(.Mui-disabled)):has(.Mui-focusVisible)": {
+              "& .MuiSwitch-switchBase": {
+                "transform": "translateX(0px) translateY(0px)"
+              }
+            },
+            "&:not(:has(.Mui-checked)):not(:has(.Mui-disabled)):not(:has(.Mui-focusVisible))": {
+              "width": "40px",
+              "height": "24px",
+              "transform": "translateX(0px) translateY(0px)",
+              "padding": "7px",
+              "background": "none",
+              "opacity": "1",
+              "borderRadius": "0",
+              "boxShadow": "none",
+              "& .MuiSwitch-switchBase": {
+                "transform": "translateX(0px) translateY(0px)",
+                "& .MuiSwitch-thumb": {
+                  "width": "16px",
+                  "height": "16px",
+                  "background": "var(--mui-palette-_components-switch-knobFillEnabled)",
+                  "boxShadow": "var(--mui-shadows-1)",
+                  "padding": "0",
+                  "opacity": "1",
+                  "borderRadius": "50%"
+                },
+                "& + .MuiSwitch-track": {
+                  "width": "26px",
+                  "height": "10px",
+                  "borderRadius": "100px",
+                  "background": "var(--mui-palette-_components-switch-slideFill)",
+                  "padding": "0",
+                  "opacity": "0.38",
+                  "boxShadow": "none",
+                  "transform": "translateX(0px) translateY(0px)"
+                }
+              }
+            },
+            "&:has(.Mui-checked):not(:has(.Mui-disabled)):has(.Mui-focusVisible)": {
+              "& .MuiSwitch-switchBase": {
+                "transform": "translateX(16px) translateY(0px)"
+              }
+            },
+            "&:has(.Mui-checked):not(:has(.Mui-disabled)):not(:has(.Mui-focusVisible))": {
+              "width": "40px",
+              "height": "24px",
+              "transform": "translateX(0px) translateY(0px)",
+              "padding": "7px",
+              "background": "none",
+              "opacity": "1",
+              "borderRadius": "0",
+              "boxShadow": "none",
+              "& .MuiSwitch-switchBase": {
+                "transform": "translateX(16px) translateY(0px)",
+                "& .MuiSwitch-thumb": {
+                  "width": "16px",
+                  "height": "16px",
+                  "background": "var(--mui-palette-common-white_states-main)",
+                  "boxShadow": "var(--mui-shadows-1)",
+                  "padding": "0",
+                  "opacity": "1",
+                  "borderRadius": "50%"
+                },
+                "& + .MuiSwitch-track": {
+                  "width": "26px",
+                  "height": "10px",
+                  "borderRadius": "100px",
+                  "background": "var(--mui-palette-_components-switch-slideFill)",
+                  "padding": "0",
+                  "opacity": "0.5",
+                  "boxShadow": "none",
+                  "transform": "translateX(0px) translateY(0px)"
+                }
+              }
+            }
+          },
+          "&.MuiSwitch-sizeSmall:has(.MuiSwitch-colorPrimary)": {
+            "& .MuiSwitch-switchBase": {
+              "padding": "4px",
+              "borderRadius": "100px",
+              "background": "none",
+              "opacity": "1",
+              "boxShadow": "none"
+            },
+            "&:not(:has(.Mui-checked)):not(:has(.Mui-disabled)):has(.Mui-focusVisible)": {
+              "& .MuiSwitch-switchBase": {
+                "transform": "translateX(0px) translateY(0px)"
+              }
+            },
+            "&:not(:has(.Mui-checked)):not(:has(.Mui-disabled)):not(:has(.Mui-focusVisible))": {
+              "width": "40px",
+              "height": "24px",
+              "transform": "translateX(0px) translateY(0px)",
+              "padding": "7px",
+              "background": "none",
+              "opacity": "1",
+              "borderRadius": "0",
+              "boxShadow": "none",
+              "& .MuiSwitch-switchBase": {
+                "transform": "translateX(0px) translateY(0px)",
+                "& .MuiSwitch-thumb": {
+                  "width": "16px",
+                  "height": "16px",
+                  "background": "var(--mui-palette-_components-switch-knobFillEnabled)",
+                  "boxShadow": "var(--mui-shadows-1)",
+                  "padding": "0",
+                  "opacity": "1",
+                  "borderRadius": "50%"
+                },
+                "& + .MuiSwitch-track": {
+                  "width": "26px",
+                  "height": "10px",
+                  "borderRadius": "100px",
+                  "background": "var(--mui-palette-_components-switch-slideFill)",
+                  "padding": "0",
+                  "opacity": "0.38",
+                  "boxShadow": "none",
+                  "transform": "translateX(0px) translateY(0px)"
+                }
+              }
+            },
+            "&:has(.Mui-checked):not(:has(.Mui-disabled)):has(.Mui-focusVisible)": {
+              "& .MuiSwitch-switchBase": {
+                "transform": "translateX(16px) translateY(0px)"
+              }
+            },
+            "&:has(.Mui-checked):not(:has(.Mui-disabled)):not(:has(.Mui-focusVisible))": {
+              "width": "40px",
+              "height": "24px",
+              "transform": "translateX(0px) translateY(0px)",
+              "padding": "7px",
+              "background": "none",
+              "opacity": "1",
+              "borderRadius": "0",
+              "boxShadow": "none",
+              "& .MuiSwitch-switchBase": {
+                "transform": "translateX(16px) translateY(0px)",
+                "& .MuiSwitch-thumb": {
+                  "width": "16px",
+                  "height": "16px",
+                  "background": "var(--mui-palette-primary-main)",
+                  "boxShadow": "var(--mui-shadows-1)",
+                  "padding": "0",
+                  "opacity": "1",
+                  "borderRadius": "50%"
+                },
+                "& + .MuiSwitch-track": {
+                  "width": "26px",
+                  "height": "10px",
+                  "borderRadius": "100px",
+                  "background": "var(--mui-palette-primary-main)",
+                  "padding": "0",
+                  "opacity": "0.5",
+                  "boxShadow": "none",
+                  "transform": "translateX(0px) translateY(0px)"
+                }
+              }
+            }
+          },
+          "&.MuiSwitch-sizeSmall:has(.MuiSwitch-colorError)": {
+            "& .MuiSwitch-switchBase": {
+              "padding": "4px",
+              "borderRadius": "100px",
+              "background": "none",
+              "opacity": "1",
+              "boxShadow": "none"
+            },
+            "&:not(:has(.Mui-checked)):not(:has(.Mui-disabled)):has(.Mui-focusVisible)": {
+              "& .MuiSwitch-switchBase": {
+                "transform": "translateX(0px) translateY(0px)"
+              }
+            },
+            "&:not(:has(.Mui-checked)):not(:has(.Mui-disabled)):not(:has(.Mui-focusVisible))": {
+              "width": "40px",
+              "height": "24px",
+              "transform": "translateX(0px) translateY(0px)",
+              "padding": "7px",
+              "background": "none",
+              "opacity": "1",
+              "borderRadius": "0",
+              "boxShadow": "none",
+              "& .MuiSwitch-switchBase": {
+                "transform": "translateX(0px) translateY(0px)",
+                "& .MuiSwitch-thumb": {
+                  "width": "16px",
+                  "height": "16px",
+                  "background": "var(--mui-palette-_components-switch-knobFillEnabled)",
+                  "boxShadow": "var(--mui-shadows-1)",
+                  "padding": "0",
+                  "opacity": "1",
+                  "borderRadius": "50%"
+                },
+                "& + .MuiSwitch-track": {
+                  "width": "26px",
+                  "height": "10px",
+                  "borderRadius": "100px",
+                  "background": "var(--mui-palette-_components-switch-slideFill)",
+                  "padding": "0",
+                  "opacity": "0.38",
+                  "boxShadow": "none",
+                  "transform": "translateX(0px) translateY(0px)"
+                }
+              }
+            },
+            "&:has(.Mui-checked):not(:has(.Mui-disabled)):has(.Mui-focusVisible)": {
+              "& .MuiSwitch-switchBase": {
+                "transform": "translateX(16px) translateY(0px)"
+              }
+            },
+            "&:has(.Mui-checked):not(:has(.Mui-disabled)):not(:has(.Mui-focusVisible))": {
+              "width": "40px",
+              "height": "24px",
+              "transform": "translateX(0px) translateY(0px)",
+              "padding": "7px",
+              "background": "none",
+              "opacity": "1",
+              "borderRadius": "0",
+              "boxShadow": "none",
+              "& .MuiSwitch-switchBase": {
+                "transform": "translateX(16px) translateY(0px)",
+                "& .MuiSwitch-thumb": {
+                  "width": "16px",
+                  "height": "16px",
+                  "background": "var(--mui-palette-error-main)",
+                  "boxShadow": "var(--mui-shadows-1)",
+                  "padding": "0",
+                  "opacity": "1",
+                  "borderRadius": "50%"
+                },
+                "& + .MuiSwitch-track": {
+                  "width": "26px",
+                  "height": "10px",
+                  "borderRadius": "100px",
+                  "background": "var(--mui-palette-error-main)",
+                  "padding": "0",
+                  "opacity": "0.5",
+                  "boxShadow": "none",
+                  "transform": "translateX(0px) translateY(0px)"
+                }
+              }
+            }
+          },
+          "&.MuiSwitch-sizeSmall:has(.MuiSwitch-colorWarning)": {
+            "& .MuiSwitch-switchBase": {
+              "padding": "4px",
+              "borderRadius": "100px",
+              "background": "none",
+              "opacity": "1",
+              "boxShadow": "none"
+            },
+            "&:not(:has(.Mui-checked)):not(:has(.Mui-disabled)):has(.Mui-focusVisible)": {
+              "& .MuiSwitch-switchBase": {
+                "transform": "translateX(0px) translateY(0px)"
+              }
+            },
+            "&:not(:has(.Mui-checked)):not(:has(.Mui-disabled)):not(:has(.Mui-focusVisible))": {
+              "width": "40px",
+              "height": "24px",
+              "transform": "translateX(0px) translateY(0px)",
+              "padding": "7px",
+              "background": "none",
+              "opacity": "1",
+              "borderRadius": "0",
+              "boxShadow": "none",
+              "& .MuiSwitch-switchBase": {
+                "transform": "translateX(0px) translateY(0px)",
+                "& .MuiSwitch-thumb": {
+                  "width": "16px",
+                  "height": "16px",
+                  "background": "var(--mui-palette-_components-switch-knobFillEnabled)",
+                  "boxShadow": "var(--mui-shadows-1)",
+                  "padding": "0",
+                  "opacity": "1",
+                  "borderRadius": "50%"
+                },
+                "& + .MuiSwitch-track": {
+                  "width": "26px",
+                  "height": "10px",
+                  "borderRadius": "100px",
+                  "background": "var(--mui-palette-_components-switch-slideFill)",
+                  "padding": "0",
+                  "opacity": "0.38",
+                  "boxShadow": "none",
+                  "transform": "translateX(0px) translateY(0px)"
+                }
+              }
+            },
+            "&:has(.Mui-checked):not(:has(.Mui-disabled)):has(.Mui-focusVisible)": {
+              "& .MuiSwitch-switchBase": {
+                "transform": "translateX(16px) translateY(0px)"
+              }
+            },
+            "&:has(.Mui-checked):not(:has(.Mui-disabled)):not(:has(.Mui-focusVisible))": {
+              "width": "40px",
+              "height": "24px",
+              "transform": "translateX(0px) translateY(0px)",
+              "padding": "7px",
+              "background": "none",
+              "opacity": "1",
+              "borderRadius": "0",
+              "boxShadow": "none",
+              "& .MuiSwitch-switchBase": {
+                "transform": "translateX(16px) translateY(0px)",
+                "& .MuiSwitch-thumb": {
+                  "width": "16px",
+                  "height": "16px",
+                  "background": "var(--mui-palette-warning-main)",
+                  "boxShadow": "var(--mui-shadows-1)",
+                  "padding": "0",
+                  "opacity": "1",
+                  "borderRadius": "50%"
+                },
+                "& + .MuiSwitch-track": {
+                  "width": "26px",
+                  "height": "10px",
+                  "borderRadius": "100px",
+                  "background": "var(--mui-palette-warning-main)",
+                  "padding": "0",
+                  "opacity": "0.5",
+                  "boxShadow": "none",
+                  "transform": "translateX(0px) translateY(0px)"
+                }
+              }
+            }
+          },
+          "&.MuiSwitch-sizeSmall:has(.MuiSwitch-colorInfo)": {
+            "& .MuiSwitch-switchBase": {
+              "padding": "4px",
+              "borderRadius": "100px",
+              "background": "none",
+              "opacity": "1",
+              "boxShadow": "none"
+            },
+            "&:not(:has(.Mui-checked)):not(:has(.Mui-disabled)):has(.Mui-focusVisible)": {
+              "& .MuiSwitch-switchBase": {
+                "transform": "translateX(0px) translateY(0px)"
+              }
+            },
+            "&:not(:has(.Mui-checked)):not(:has(.Mui-disabled)):not(:has(.Mui-focusVisible))": {
+              "width": "40px",
+              "height": "24px",
+              "transform": "translateX(0px) translateY(0px)",
+              "padding": "7px",
+              "background": "none",
+              "opacity": "1",
+              "borderRadius": "0",
+              "boxShadow": "none",
+              "& .MuiSwitch-switchBase": {
+                "transform": "translateX(0px) translateY(0px)",
+                "& .MuiSwitch-thumb": {
+                  "width": "16px",
+                  "height": "16px",
+                  "background": "var(--mui-palette-_components-switch-knobFillEnabled)",
+                  "boxShadow": "var(--mui-shadows-1)",
+                  "padding": "0",
+                  "opacity": "1",
+                  "borderRadius": "50%"
+                },
+                "& + .MuiSwitch-track": {
+                  "width": "26px",
+                  "height": "10px",
+                  "borderRadius": "100px",
+                  "background": "var(--mui-palette-_components-switch-slideFill)",
+                  "padding": "0",
+                  "opacity": "0.38",
+                  "boxShadow": "none",
+                  "transform": "translateX(0px) translateY(0px)"
+                }
+              }
+            },
+            "&:has(.Mui-checked):not(:has(.Mui-disabled)):has(.Mui-focusVisible)": {
+              "& .MuiSwitch-switchBase": {
+                "transform": "translateX(16px) translateY(0px)"
+              }
+            },
+            "&:has(.Mui-checked):not(:has(.Mui-disabled)):not(:has(.Mui-focusVisible))": {
+              "width": "40px",
+              "height": "24px",
+              "transform": "translateX(0px) translateY(0px)",
+              "padding": "7px",
+              "background": "none",
+              "opacity": "1",
+              "borderRadius": "0",
+              "boxShadow": "none",
+              "& .MuiSwitch-switchBase": {
+                "transform": "translateX(16px) translateY(0px)",
+                "& .MuiSwitch-thumb": {
+                  "width": "16px",
+                  "height": "16px",
+                  "background": "var(--mui-palette-info-main)",
+                  "boxShadow": "var(--mui-shadows-1)",
+                  "padding": "0",
+                  "opacity": "1",
+                  "borderRadius": "50%"
+                },
+                "& + .MuiSwitch-track": {
+                  "width": "26px",
+                  "height": "10px",
+                  "borderRadius": "100px",
+                  "background": "var(--mui-palette-info-main)",
+                  "padding": "0",
+                  "opacity": "0.5",
+                  "boxShadow": "none",
+                  "transform": "translateX(0px) translateY(0px)"
+                }
+              }
+            }
+          },
+          "&.MuiSwitch-sizeSmall:has(.MuiSwitch-colorSuccess)": {
+            "& .MuiSwitch-switchBase": {
+              "padding": "4px",
+              "borderRadius": "100px",
+              "background": "none",
+              "opacity": "1",
+              "boxShadow": "none"
+            },
+            "&:not(:has(.Mui-checked)):not(:has(.Mui-disabled)):has(.Mui-focusVisible)": {
+              "& .MuiSwitch-switchBase": {
+                "transform": "translateX(0px) translateY(0px)"
+              }
+            },
+            "&:not(:has(.Mui-checked)):not(:has(.Mui-disabled)):not(:has(.Mui-focusVisible))": {
+              "width": "40px",
+              "height": "24px",
+              "transform": "translateX(0px) translateY(0px)",
+              "padding": "7px",
+              "background": "none",
+              "opacity": "1",
+              "borderRadius": "0",
+              "boxShadow": "none",
+              "& .MuiSwitch-switchBase": {
+                "transform": "translateX(0px) translateY(0px)",
+                "& .MuiSwitch-thumb": {
+                  "width": "16px",
+                  "height": "16px",
+                  "background": "var(--mui-palette-_components-switch-knobFillEnabled)",
+                  "boxShadow": "var(--mui-shadows-1)",
+                  "padding": "0",
+                  "opacity": "1",
+                  "borderRadius": "50%"
+                },
+                "& + .MuiSwitch-track": {
+                  "width": "26px",
+                  "height": "10px",
+                  "borderRadius": "100px",
+                  "background": "var(--mui-palette-_components-switch-slideFill)",
+                  "padding": "0",
+                  "opacity": "0.38",
+                  "boxShadow": "none",
+                  "transform": "translateX(0px) translateY(0px)"
+                }
+              }
+            },
+            "&:has(.Mui-checked):not(:has(.Mui-disabled)):has(.Mui-focusVisible)": {
+              "& .MuiSwitch-switchBase": {
+                "transform": "translateX(16px) translateY(0px)"
+              }
+            },
+            "&:has(.Mui-checked):not(:has(.Mui-disabled)):not(:has(.Mui-focusVisible))": {
+              "width": "40px",
+              "height": "24px",
+              "transform": "translateX(0px) translateY(0px)",
+              "padding": "7px",
+              "background": "none",
+              "opacity": "1",
+              "borderRadius": "0",
+              "boxShadow": "none",
+              "& .MuiSwitch-switchBase": {
+                "transform": "translateX(16px) translateY(0px)",
+                "& .MuiSwitch-thumb": {
+                  "width": "16px",
+                  "height": "16px",
+                  "background": "var(--mui-palette-success-main)",
+                  "boxShadow": "var(--mui-shadows-1)",
+                  "padding": "0",
+                  "opacity": "1",
+                  "borderRadius": "50%"
+                },
+                "& + .MuiSwitch-track": {
+                  "width": "26px",
+                  "height": "10px",
+                  "borderRadius": "100px",
+                  "background": "var(--mui-palette-success-main)",
+                  "padding": "0",
+                  "opacity": "0.5",
+                  "boxShadow": "none",
+                  "transform": "translateX(0px) translateY(0px)"
+                }
+              }
+            }
+          },
+          "&.MuiSwitch-sizeSmall:has(.MuiSwitch-colorSecondary)": {
+            "& .MuiSwitch-switchBase": {
+              "padding": "4px",
+              "borderRadius": "100px",
+              "background": "none",
+              "opacity": "1",
+              "boxShadow": "none"
+            },
+            "&:has(.Mui-checked):not(:has(.Mui-disabled)):has(.Mui-focusVisible)": {
+              "& .MuiSwitch-switchBase": {
+                "transform": "translateX(16px) translateY(0px)"
+              }
+            },
+            "&:has(.Mui-checked):not(:has(.Mui-disabled)):not(:has(.Mui-focusVisible))": {
+              "width": "40px",
+              "height": "24px",
+              "transform": "translateX(0px) translateY(0px)",
+              "padding": "7px",
+              "background": "none",
+              "opacity": "1",
+              "borderRadius": "0",
+              "boxShadow": "none",
+              "& .MuiSwitch-switchBase": {
+                "transform": "translateX(16px) translateY(0px)",
+                "& .MuiSwitch-thumb": {
+                  "width": "16px",
+                  "height": "16px",
+                  "background": "var(--mui-palette-secondary-main)",
+                  "boxShadow": "var(--mui-shadows-1)",
+                  "padding": "0",
+                  "opacity": "1",
+                  "borderRadius": "50%"
+                },
+                "& + .MuiSwitch-track": {
+                  "width": "26px",
+                  "height": "10px",
+                  "borderRadius": "100px",
+                  "background": "var(--mui-palette-secondary-main)",
+                  "padding": "0",
+                  "opacity": "0.5",
+                  "boxShadow": "none",
+                  "transform": "translateX(0px) translateY(0px)"
+                }
+              }
+            },
+            "&:not(:has(.Mui-checked)):not(:has(.Mui-disabled)):has(.Mui-focusVisible)": {
+              "& .MuiSwitch-switchBase": {
+                "transform": "translateX(0px) translateY(0px)"
+              }
+            },
+            "&:not(:has(.Mui-checked)):not(:has(.Mui-disabled)):not(:has(.Mui-focusVisible))": {
+              "width": "40px",
+              "height": "24px",
+              "transform": "translateX(0px) translateY(0px)",
+              "padding": "7px",
+              "background": "none",
+              "opacity": "1",
+              "borderRadius": "0",
+              "boxShadow": "none",
+              "& .MuiSwitch-switchBase": {
+                "transform": "translateX(0px) translateY(0px)",
+                "& .MuiSwitch-thumb": {
+                  "width": "16px",
+                  "height": "16px",
+                  "background": "var(--mui-palette-_components-switch-knobFillEnabled)",
+                  "boxShadow": "var(--mui-shadows-1)",
+                  "padding": "0",
+                  "opacity": "1",
+                  "borderRadius": "50%"
+                },
+                "& + .MuiSwitch-track": {
+                  "width": "26px",
+                  "height": "10px",
+                  "borderRadius": "100px",
+                  "background": "var(--mui-palette-_components-switch-slideFill)",
+                  "padding": "0",
+                  "opacity": "0.38",
+                  "boxShadow": "none",
+                  "transform": "translateX(0px) translateY(0px)"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

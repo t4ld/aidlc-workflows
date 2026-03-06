@@ -1,0 +1,117 @@
+{
+  "assignments": [
+    {
+      "id": 1,
+      "platName": "TT1245",
+      "description": "GRND-NB-40-TT1245",
+      "mwc": "SAN LUIS OBISPO",
+      "type": "BFA",
+      "units": "0/36",
+      "ads": 0,
+      "monthPlan": 5,
+      "dueDate": "06/15/2025",
+      "status": "Unassigned",
+      "assignees": []
+    },
+    {
+      "id": 2,
+      "platName": "TT12",
+      "description": "GRND-NB-40-TT1245",
+      "mwc": "SAN LUIS OBISPO",
+      "type": "BFA",
+      "units": "0/50",
+      "ads": 0,
+      "monthPlan": 4,
+      "dueDate": "06/15/2025",
+      "status": "Pending Review",
+      "assignees": [
+        { "id": 1, "name": "Alice Johnson", "email": "alice.johnson@company.com", "role": "Engineer" },
+        { "id": 2, "name": "Bob Smith", "email": "bob.smith@company.com", "role": "Supervisor" }
+      ]
+    },
+    {
+      "id": 3,
+      "platName": "TT13",
+      "description": "GRND-NB-40-TT1245",
+      "mwc": "SAN LUIS OBISPO",
+      "type": "BFA",
+      "units": "0/120",
+      "ads": 0,
+      "monthPlan": 3,
+      "dueDate": "06/15/2025",
+      "status": "Unassigned",
+      "assignees": []
+    },
+    {
+      "id": 4,
+      "platName": "TT1305",
+      "description": "GRND-NB-40-TT1245",
+      "mwc": "SAN LUIS OBISPO",
+      "type": "BFA",
+      "units": "0/100",
+      "ads": 0,
+      "monthPlan": 4,
+      "dueDate": "06/15/2025",
+      "status": "Assigned",
+      "assignees": [
+        { "id": 3, "name": "Carol Davis", "email": "carol.davis@company.com", "role": "Technician" },
+        { "id": 4, "name": "David Wilson", "email": "david.wilson@company.com", "role": "Engineer" },
+        { "id": 5, "name": "Emma Brown", "email": "emma.brown@company.com", "role": "Coordinator" }
+      ]
+    },
+    {
+      "id": 5,
+      "platName": "TT1306",
+      "description": "GRND-NB-40-TT1245",
+      "mwc": "SAN LUIS OBISPO",
+      "type": "BFA",
+      "units": "0/100",
+      "ads": 0,
+      "monthPlan": 5,
+      "dueDate": "06/15/2025",
+      "status": "Pending Close",
+      "assignees": [
+        { "id": 6, "name": "Frank Miller", "email": "frank.miller@company.com", "role": "Inspector" },
+        { "id": 7, "name": "Grace Lee", "email": "grace.lee@company.com", "role": "Engineer" }
+      ]
+    },
+    {
+      "id": 6,
+      "platName": "TT1400",
+      "description": "GRND-NB-40-TT1400",
+      "mwc": "SANTA MARIA",
+      "type": "BFB",
+      "units": "12/80",
+      "ads": 2,
+      "monthPlan": 6,
+      "dueDate": "07/20/2025",
+      "status": "In Progress",
+      "assignees": [
+        { "id": 8, "name": "Henry Garcia", "email": "henry.garcia@company.com", "role": "Technician" },
+        { "id": 9, "name": "Ivy Martinez", "email": "ivy.martinez@company.com", "role": "Supervisor" },
+        { "id": 10, "name": "Jack Anderson", "email": "jack.anderson@company.com", "role": "Engineer" },
+        { "id": 1, "name": "Alice Johnson", "email": "alice.johnson@company.com", "role": "Engineer" }
+      ]
+    },
+    {
+      "id": 7,
+      "platName": "TT1500",
+      "description": "GRND-NB-40-TT1500",
+      "mwc": "TEMPLETON",
+      "type": "BFA",
+      "units": "45/45",
+      "ads": 0,
+      "monthPlan": 5,
+      "dueDate": "05/30/2025",
+      "status": "Complete",
+      "assignees": [
+        { "id": 2, "name": "Bob Smith", "email": "bob.smith@company.com", "role": "Supervisor" }
+      ]
+    }
+  ],
+  "metadata": {
+    "lastUpdated": "2025-07-02T10:00:00Z",
+    "version": "1.0",
+    "totalRecords": 7
+  }
+}
